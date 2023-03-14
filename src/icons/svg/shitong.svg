@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="72.5" viewBox="0 0 63 72.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+        font-family: SourceHanSansCN-Medium, Source Han Sans CN;
+        font-weight: 500;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        filter: url(#Side_navigation备份);
+      }
+    </style>
+    <filter id="Side_navigation备份" x="0" y="0" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="data备份" transform="translate(9.5 6.082)">
+    <rect id="路径" class="cls-1" width="44" height="44" transform="translate(0 0.418)"/>
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, -9.5, -6.08)">
+      <rect id="Side_navigation备份-2" data-name="Side navigation备份" class="cls-2" width="44" height="44" rx="4" transform="translate(9.5 6.5)"/>
+    </g>
+    <text id="时统设备" class="cls-3" transform="translate(-6 64.418)"><tspan x="0" y="0">时统设备</tspan></text>
+    <path id="路径_3995" data-name="路径 3995" class="cls-4" d="M76.131,68A12.131,12.131,0,1,0,88.263,80.131,12.132,12.132,0,0,0,76.131,68Zm5.061,12.714a1.019,1.019,0,0,1-1.015,1.015H75.444a1.015,1.015,0,0,1-1-.829,1.029,1.029,0,0,1-.046-.3V74.16a1.019,1.019,0,0,1,1.015-1.015h.152a1.019,1.019,0,0,1,1.015,1.015v5.386h3.6A1.019,1.019,0,0,1,81.2,80.562v.152Z" transform="translate(-54 -57.582)"/>
+  </g>
+</svg>

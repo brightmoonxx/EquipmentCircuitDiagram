@@ -1,0 +1,1951 @@
+{
+    "polarity_device": [
+        "ACU",
+        "CPB"
+    ],
+    "always_online": [
+        22,
+        23,
+        24,
+        25,
+        29,
+        31,
+        38,
+        63,
+        64,
+        65,
+        66,
+        78,
+        79,
+        80,
+        81,
+        98,
+        99,
+        100
+    ],
+    "matrix": {
+        "70M": 26,
+        "1.2G": 51
+    },
+    "element": [
+        {
+            "device_key": "IF_MATRIX",
+            "deviceId": "",
+            "deviceStatus": "OFF_LINE",
+            "name": "中频矩阵"
+        },
+        {
+            "id": 1,
+            "status": "OFF_LINE",
+            "type": "round_rect",
+            "text": "X频段馈源",
+            "style": {
+                "width": 47,
+                "height": 310,
+                "top": 10,
+                "left": 219,
+                "color": "#167AFF",
+                "background": "var(--yx-background-3)",
+                "border": "2px solid #FFFFFF",
+                "borderRadius": [
+                    20
+                ],
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "lineHeight": "35px"
+            }
+        },
+        {
+            "id": 2,
+            "status": "OFF_LINE",
+            "type": "round_rect",
+            "text": "S频段馈源",
+            "style": {
+                "width": 47,
+                "height": 310,
+                "top": 340,
+                "left": 219,
+                "background": "var(--yx-background-3)",
+                "border": "2px solid #FFFFFF",
+                "color": "#07D0D0",
+                "borderRadius": [
+                    20
+                ],
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "lineHeight": "35px"
+            }
+        },
+        {
+            "id": 3,
+            "type": "arrow",
+            "children_id": 1,
+            "status": "OFF_LINE",
+            "parent_id": 9,
+            "style": {
+                "top": 60,
+                "left": 266,
+                "width": 10,
+                "color": "var(--yx-font-4)"
+            }
+        },
+        {
+            "id": 4,
+            "children_id": 1,
+            "status": "OFF_LINE",
+            "parent_id": 10,
+            "type": "arrow",
+            "style": {
+                "top": 130,
+                "left": 266,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": ""
+            }
+        },
+        {
+            "id": 7,
+            "type": "arrow",
+            "children_id": 13,
+            "status": "OFF_LINE",
+            "parent_id": 1,
+            "style": {
+                "top": 210,
+                "left": 264,
+                "width": 10,
+                "color": "#3474E4",
+                "transform": "translate(11,0) rotate(180)"
+            }
+        },
+        {
+            "id": 8,
+            "type": "arrow",
+            "children_id": 14,
+            "status": "OFF_LINE",
+            "parent_id": 1,
+            "style": {
+                "top": 276,
+                "left": 264,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": "translate(11,0) rotate(180)"
+            }
+        },
+        {
+            "id": 9,
+            "type": "round_rect_mini",
+            "text": "LHPC",
+            "children_id": 3,
+            "status": "OFF_LINE",
+            "parent_id": 67,
+            "style": {
+                "top": 48,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            }
+        },
+        {
+            "id": 10,
+            "type": "round_rect_mini",
+            "children_id": 4,
+            "status": "OFF_LINE",
+            "parent_id": 68,
+            "text": "RHPC",
+            "style": {
+                "top": 118,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "background": "#F1F4F7",
+                "border": "1px solid #FFFFFF",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            }
+        },
+        {
+            "id": 13,
+            "type": "round_rect_mini",
+            "status": "OFF_LINE",
+            "children_id": 19,
+            "parent_id": 7,
+            "text": "LHPC",
+            "style": {
+                "top": 198,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            }
+        },
+        {
+            "id": 14,
+            "type": "round_rect_mini",
+            "text": "RHPC",
+            "status": "OFF_LINE",
+            "children_id": 20,
+            "parent_id": 8,
+            "style": {
+                "top": 264,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "border": "1px solid #FFFFFF",
+                "background": "#F1F4F7",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            }
+        },
+        {
+            "id": 15,
+            "type": "rect-mini",
+            "status": "OFF_LINE",
+            "children_id": 20,
+            "parent_id": 8,
+            "style": {
+                "top": 90,
+                "left": 370,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #fff",
+                "borderRadius": [
+                    2
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "type": "ball-mini",
+            "status": "OFF_LINE",
+            "paramKey": "ACU_JX_X_3",
+            "paramValue": "ACU_JX_X_3_SET",
+            "line_color": "#C3C9D2",
+            "active_color": "rgb(52, 116, 228)",
+            "parent_id": [
+                67,
+                68
+            ],
+            "children_id": 135,
+            "polarity": {
+                "1": [
+                    67,
+                    9,
+                    3
+                ],
+                "2": [
+                    68,
+                    10,
+                    4
+                ]
+            },
+            "direction": {
+                "left": "1",
+                "right": "2"
+            },
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 84,
+                "left": 430,
+                "width": 20,
+                "height": 20,
+                "transition": "all 0.5s ease 0s",
+                "zIndex": 2,
+                "color": "#A2B2C5",
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "line_points": "0 0, 40 0",
+            "children_id": 24,
+            "parent_id": 13,
+            "arrow_transform": "translate(40 0) rotate(180)",
+            "style": {
+                "top": 210,
+                "left": 358,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 20,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "line_points": "0 0, 40 0",
+            "children_id": 25,
+            "parent_id": 14,
+            "arrow_transform": "translate(40 0) rotate(180)",
+            "style": {
+                "top": 274,
+                "left": 358,
+                "width": 29,
+                "color": "#C3C9D2"
+            }
+        },
+        {
+            "id": 21,
+            "type": "equipment",
+            "status": "OFF_LINE",
+            "children_id": 135,
+            "parent_id": 27,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "X-BUC",
+            "device_key": "X_BUC",
+            "equipment_icon": "buc",
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                },
+                {
+                    "label": "输出功率",
+                    "value": "00dBm"
+                }
+            ],
+            "style": {
+                "top": 38,
+                "left": 486,
+                "width": 170,
+                "height": 114,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 24,
+            "type": "equipment",
+            "line_points": "0 0, 29 0",
+            "parent_id": 19,
+            "children_id": 45,
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "和场放左",
+            "equipment_icon": "bad-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 194,
+                "left": 444,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 25,
+            "type": "equipment",
+            "parent_id": 20,
+            "children_id": 46,
+            "line_points": "0 0, 40 0",
+            "arrow_transform": "translate(40 0) rotate(180)",
+            "equipment_name": "和场放右",
+            "equipment_icon": "bad-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 256,
+                "left": 444,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 26,
+            "type": "round_rect",
+            "parent_id": [
+                53,
+                123
+            ],
+            "children_id": [
+                94,
+                95,
+                32,
+                82,
+                104,
+                126
+            ],
+            "status": "OFF_LINE",
+            "text": "中频矩阵",
+            "style": {
+                "width": 47,
+                "height": 650,
+                "top": 10,
+                "left": 1226,
+                "color": "#167AFF",
+                "background": "rgba(255,255,255,0.12)",
+                "border": "2px solid #2680EB",
+                "borderRadius": [
+                    20
+                ],
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "lineHeight": "35px",
+                "wordBreak": "break-all"
+            }
+        },
+        {
+            "id": 27,
+            "status": "OFF_LINE",
+            "type": "line-straight",
+            "line_points": "0 0,105 0",
+            "parent_id": 31,
+            "children_id": 21,
+            "animateStartRight": true,
+            "arrow_transform": "",
+            "line_circle": {
+                "cx": 318,
+                "cy": -17
+            },
+            "style": {
+                "top": 94,
+                "left": 660,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 31,
+            "equipment_name": "L上下变频器",
+            "equipment_icon": "transducer",
+            "parent_id": 32,
+            "children_id": 27,
+            "type": "equipment",
+            "status": "NORMAL",
+            "equipment_details": [],
+            "style": {
+                "top": 48,
+                "left": 866,
+                "width": 170,
+                "height": 94,
+                "color": "#61666a",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#f9fbfc",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 32,
+            "type": "line-straight",
+            "parent_id": 26,
+            "status": "OFF_LINE",
+            "children_id": 31,
+            "line_start_arrow_transform": "translate(0 0)  rotate(0)",
+            "animateStartRight": true,
+            "line_start": "arrow",
+            "no_circle": true,
+            "line_points": "0 0, 91 0",
+            "arrow_transform": "translate(91 0) rotate(180)",
+            "style": {
+                "top": 95,
+                "left": 1040,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 33,
+            "type": "equipment",
+            "equipment_name": "跟踪接收机",
+            "device_key": "TRK",
+            "parent_id": 94,
+            "children_id": 127,
+            "equipment_icon": "track-machine",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                },
+                {
+                    "label": "跟踪模式",
+                    "value": "单载频"
+                }
+            ],
+            "style": {
+                "top": 20,
+                "left": 1338,
+                "width": 220,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 34,
+            "type": "equipment",
+            "equipment_name": "天线控制",
+            "device_key": "ACU",
+            "parent_id": 127,
+            "children_id": 96,
+            "equipment_icon": "acu",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "工作方式",
+                    "value": "待机"
+                },
+                {
+                    "label": "天线位置",
+                    "value": "123.123，123.123"
+                },
+                {
+                    "label": "相位",
+                    "value": "123，123"
+                }
+            ],
+            "style": {
+                "top": 35,
+                "left": 1631,
+                "width": 220,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 35,
+            "type": "equipment",
+            "equipment_name": "综合基带(中低速)",
+            "device_key": "BBE2",
+            "parent_id": 95,
+            "children_id": 102,
+            "equipment_icon": "normal",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "工作方式",
+                    "value": "标准"
+                },
+                {
+                    "label": "上行频率",
+                    "value": "1234.1234MHz"
+                },
+                {
+                    "label": "下行频率",
+                    "value": "1234.1234MHz"
+                },
+                {
+                    "label": "监控模式",
+                    "value": "低速数传"
+                }
+            ],
+            "style": {
+                "top": 324,
+                "left": 1338,
+                "width": 220,
+                "height": 154,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 36,
+            "type": "equipment",
+            "equipment_name": "X下变频器",
+            "device_key": "XDC1",
+            "parent_id": 137,
+            "children_id": 53,
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                }
+            ],
+            "style": {
+                "top": 197,
+                "left": 866,
+                "width": 170,
+                "height": 94,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 45,
+            "type": "line-straight",
+            "parent_id": 24,
+            "children_id": 47,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 42 0,42 13.5",
+            "no_arrow": true,
+            "style": {
+                "top": 210,
+                "left": 566,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 46,
+            "type": "line-straight",
+            "parent_id": 25,
+            "children_id": 47,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 41.5 0, 41.5 -10",
+            "no_arrow": 1,
+            "arrow_transform": "translate(41 -8) rotate(90)",
+            "style": {
+                "top": 274,
+                "left": 566,
+                "width": 29,
+                "color": "#C3C9D2"
+            }
+        },
+        {
+            "id": 47,
+            "type": "ball-mini",
+            "paramKey": "ACU_JX_X_2",
+            "paramValue": "ACU_JX_X_2_SET",
+            "parent_id": [
+                45,
+                46
+            ],
+            "polarity": {
+                "1": [
+                    45,
+                    19,
+                    13,
+                    7
+                ],
+                "2": [
+                    46,
+                    20,
+                    14,
+                    8
+                ]
+            },
+            "direction": {
+                "left": "1",
+                "right": "2"
+            },
+            "children_id": 137,
+            "status": "OFF_LINE",
+            "active_color": "rgb(52, 116, 228)",
+            "line_color": "#C3C9D2",
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 233,
+                "left": 642,
+                "width": 20,
+                "height": 20,
+                "transition": "all 0.5s ease 0s",
+                "color": "#A2B2C5",
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ],
+                "zIndex": 2
+            }
+        },
+        {
+            "id": 53,
+            "type": "line-straight",
+            "parent_id": 36,
+            "children_id": 26,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 55 0, 55 0,92 0",
+            "arrow_transform": "translate(92 0) rotate(180)",
+            "style": {
+                "top": 243,
+                "left": 1038,
+                "width": 29,
+                "color": "#fff"
+            }
+        },
+        {
+            "id": 55,
+            "type": "arrow",
+            "parent_id": 61,
+            "status": "OFF_LINE",
+            "children_id": 2,
+            "s_fed": true,
+            "style": {
+                "top": 390,
+                "left": 266,
+                "width": 10,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 56,
+            "type": "arrow",
+            "s_fed": true,
+            "parent_id": 62,
+            "status": "OFF_LINE",
+            "children_id": 2,
+            "style": {
+                "top": 456,
+                "left": 266,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": ""
+            }
+        },
+        {
+            "id": 59,
+            "type": "arrow",
+            "parent_id": 2,
+            "children_id": 65,
+            "status": "NORMAL",
+            "s_fed": true,
+            "style": {
+                "top": 538,
+                "left": 264,
+                "width": 10,
+                "color": "#3474E4",
+                "transform": "translate(11,0) rotate(180)"
+            }
+        },
+        {
+            "id": 60,
+            "type": "arrow",
+            "parent_id": 2,
+            "status": "NORMAL",
+            "s_fed": true,
+            "children_id": 66,
+            "style": {
+                "top": 605,
+                "left": 264,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": "translate(11,0) rotate(180)"
+            }
+        },
+        {
+            "id": 61,
+            "type": "round_rect_mini",
+            "parent_id": 75,
+            "status": "OFF_LINE",
+            "children_id": 55,
+            "text": "LHPC",
+            "s_fed": true,
+            "style": {
+                "top": 378,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            }
+        },
+        {
+            "id": 62,
+            "status": "OFF_LINE",
+            "type": "round_rect_mini",
+            "parent_id": 76,
+            "children_id": 56,
+            "text": "RHPC",
+            "s_fed": true,
+            "style": {
+                "top": 444,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "border": "1px solid #FFFFFF",
+                "background": "#F1F4F7",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            }
+        },
+        {
+            "id": 65,
+            "type": "round_rect_mini",
+            "parent_id": 59,
+            "s_fed": true,
+            "status": "OFF_LINE",
+            "children_id": 73,
+            "text": "LHPC",
+            "style": {
+                "top": 526,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            }
+        },
+        {
+            "id": 66,
+            "type": "round_rect_mini",
+            "parent_id": 60,
+            "s_fed": true,
+            "status": "OFF_LINE",
+            "children_id": 74,
+            "text": "RHPC",
+            "style": {
+                "top": 593,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "border": "1px solid #FFFFFF",
+                "background": "#F1F4F7",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            }
+        },
+        {
+            "id": 67,
+            "type": "line-straight",
+            "parent_id": 16,
+            "status": "OFF_LINE",
+            "children_id": 9,
+            "text": "RHPC",
+            "line_points": "0 0,40 0, 40 15",
+            "arrow_transform": "translate(0 0) rotate(0)",
+            "animateStartRight": true,
+            "line_circle": {
+                "cx": 30,
+                "cy": 9.5
+            },
+            "style": {
+                "top": 60,
+                "left": 358,
+                "width": 20,
+                "height": 24,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 68,
+            "parent_id": 16,
+            "status": "OFF_LINE",
+            "children_id": 10,
+            "type": "line-straight",
+            "text": "RHPC",
+            "line_points": "0 0,40 0,40 -15",
+            "arrow_transform": "translate(0 0) rotate(0)",
+            "animateStartRight": true,
+            "no_circle": false,
+            "line_circle": {
+                "cx": 30,
+                "cy": -12
+            },
+            "style": {
+                "top": 130,
+                "left": 358,
+                "width": 22,
+                "height": 24,
+                "color": "#C3C9D2"
+            }
+        },
+        {
+            "id": 69,
+            "type": "rect-mini",
+            "parent_id": null,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "style": {
+                "top": 415,
+                "left": 374,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #C3C9D2",
+                "borderRadius": [
+                    2
+                ]
+            }
+        },
+        {
+            "id": 70,
+            "type": "ball-mini",
+            "paramKey": "ACU_JX_S_3",
+            "paramValue": "ACU_JX_S_3_SET",
+            "s_fed": true,
+            "polarity": {
+                "1": [
+                    75,
+                    61,
+                    55
+                ],
+                "2": [
+                    76,
+                    62,
+                    56
+                ]
+            },
+            "direction": {
+                "left": "1",
+                "right": "2"
+            },
+            "parent_id": [
+                75,
+                76
+            ],
+            "status": "OFF_LINE",
+            "children_id": 138,
+            "active_color": "rgb(52, 116, 228)",
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 410,
+                "left": 430,
+                "width": 20,
+                "height": 20,
+                "color": "#A2B2C5",
+                "transition": "all 0.5s ease 0s",
+                "zIndex": 2,
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ]
+            }
+        },
+        {
+            "id": 73,
+            "type": "line-straight",
+            "parent_id": 65,
+            "status": "NORMAL",
+            "s_fed": true,
+            "children_id": 80,
+            "line_points": "0 0, 40 0",
+            "arrow_transform": "translate(40 0) rotate(180)",
+            "style": {
+                "top": 538,
+                "left": 358,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 74,
+            "parent_id": 66,
+            "status": "NORMAL",
+            "s_fed": true,
+            "children_id": 81,
+            "type": "line-straight",
+            "line_points": "0 0, 40 0",
+            "arrow_transform": "translate(40 0) rotate(180)",
+            "style": {
+                "top": 605,
+                "left": 358,
+                "width": 29,
+                "color": "#C3C9D2"
+            }
+        },
+        {
+            "id": 75,
+            "parent_id": 70,
+            "status": "OFF_LINE",
+            "children_id": 61,
+            "s_fed": true,
+            "type": "line-straight",
+            "line_points": "0 0,40 0, 40 10",
+            "animateStartRight": true,
+            "line_circle": {
+                "cx": 30,
+                "cy": 10
+            },
+            "style": {
+                "top": 390,
+                "left": 358,
+                "width": 21,
+                "height": 24,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 76,
+            "type": "line-straight",
+            "parent_id": 70,
+            "status": "OFF_LINE",
+            "children_id": 62,
+            "line_points": "0 0,40 0, 40 -11.5",
+            "animateStartRight": true,
+            "s_fed": true,
+            "no_circle": false,
+            "line_circle": {
+                "cx": 30,
+                "cy": -12
+            },
+            "style": {
+                "top": 455,
+                "left": 358,
+                "width": 21,
+                "height": 24,
+                "color": "#C3C9D2"
+            }
+        },
+        {
+            "id": 77,
+            "type": "equipment",
+            "parent_id": 121,
+            "status": "OFF_LINE",
+            "children_id": 138,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "S功放",
+            "device_key": "S_BUC",
+            "equipment_icon": "buc",
+            "s_fed": true,
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                },
+                {
+                    "label": "输出功率",
+                    "value": "00dBm"
+                }
+            ],
+            "style": {
+                "top": 360,
+                "left": 490,
+                "width": 170,
+                "height": 114,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px",
+                "zIndex": -1
+            }
+        },
+        {
+            "id": 80,
+            "type": "equipment",
+            "parent_id": 73,
+            "children_id": 88,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "和场放左",
+            "s_fed": true,
+            "equipment_icon": "bad-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 521,
+                "left": 440,
+                "width": 138,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 81,
+            "type": "equipment",
+            "parent_id": 74,
+            "children_id": 89,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "和场放右",
+            "s_fed": true,
+            "equipment_icon": "bad-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 586,
+                "left": 440,
+                "width": 138,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "var(--yx-background-3)",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 82,
+            "type": "line-straight",
+            "parent_id": 26,
+            "children_id": 84,
+            "line_points": "0 0, 92 0",
+            "s_fed": true,
+            "status": "OFF_LINE",
+            "arrow_transform": "",
+            "animateStartRight": true,
+            "style": {
+                "top": 420,
+                "left": 1040,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 84,
+            "type": "equipment",
+            "parent_id": 82,
+            "children_id": 121,
+            "equipment_name": "S上变频器",
+            "device_key": "SDC1",
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "s_fed": true,
+            "equipment_details": [
+                {
+                    "label": "衰减",
+                    "value": "30db"
+                },
+                {
+                    "label": "效率",
+                    "value": "12345.1234Hz"
+                }
+            ],
+            "style": {
+                "top": 360,
+                "left": 866,
+                "width": 170,
+                "height": 119,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "10px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 86,
+            "type": "line-straight",
+            "parent_id": 87,
+            "children_id": 120,
+            "s_fed": true,
+            "status": "OFF_LINE",
+            "line_points": "0 0,100 0",
+            "arrow_transform": "translate(100 0) rotate(180)",
+            "style": {
+                "top": 570,
+                "left": 660,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 87,
+            "type": "ball-mini",
+            "paramKey": "ACU_JX_S_3",
+            "paramValue": "ACU_JX_S_3_SET",
+            "s_fed": true,
+            "polarity": {
+                "1": [
+                    59,
+                    65,
+                    73
+                ],
+                "2": [
+                    60,
+                    66,
+                    74
+                ]
+            },
+            "direction": {
+                "left": "1",
+                "right": "2"
+            },
+            "parent_id": [
+                75,
+                76
+            ],
+            "status": "OFF_LINE",
+            "children_id": 138,
+            "active_color": "rgb(52, 116, 228)",
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 558,
+                "left": 639,
+                "width": 20,
+                "height": 20,
+                "color": "#A2B2C5",
+                "transition": "all 0.5s ease 0s",
+                "zIndex": 2,
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ]
+            }
+        },
+        {
+            "id": 88,
+            "type": "line-straight",
+            "parent_id": 80,
+            "children_id": 87,
+            "s_fed": true,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 35 0,35 13.5",
+            "no_arrow": true,
+            "style": {
+                "top": 536,
+                "left": 578,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 89,
+            "type": "line-straight",
+            "parent_id": 81,
+            "status": "OFF_LINE",
+            "s_fed": true,
+            "children_id": 87,
+            "line_points": "0 0, 35 0, 35 -15",
+            "no_arrow": 1,
+            "style": {
+                "top": 604,
+                "left": 578,
+                "width": 29,
+                "color": "#C3C9D2"
+            }
+        },
+        {
+            "id": 90,
+            "type": "line-straight",
+            "parent_id": 87,
+            "children_id": 91,
+            "status": "OFF_LINE",
+            "line_points": "0 0,15 0",
+            "no_arrow": 1,
+            "arrow_transform": "translate(41 -8) rotate(90)",
+            "style": {
+                "top": 568,
+                "left": 614,
+                "width": 29,
+                "color": "#C3C9D2"
+            }
+        },
+        {
+            "id": 91,
+            "type": "rect-mini",
+            "parent_id": null,
+            "status": "OFF_LINE",
+            "children_id": 87,
+            "style": {
+                "top": 563,
+                "left": 590,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #C3C9D2",
+                "borderRadius": [
+                    2
+                ]
+            }
+        },
+        {
+            "id": 94,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 26,
+            "children_id": 33,
+            "line_points": "0 0,32 0",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "style": {
+                "top": 85,
+                "left": 1273,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 95,
+            "type": "line-straight",
+            "line_points": "0 0,32 0",
+            "parent_id": 26,
+            "children_id": 35,
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 403,
+                "left": 1273,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 96,
+            "type": "line-straight",
+            "line_points": "0 0,0 29",
+            "status": "OFF_LINE",
+            "parent_id": 34,
+            "children_id": 98,
+            "arrow_transform": "translate(0 -4) rotate(90)",
+            "line_start_arrow_transform": "translate(0 29)  rotate(-90)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 169,
+                "left": 1741,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 97,
+            "parent_id": 104,
+            "children_id": 103,
+            "type": "equipment",
+            "equipment_name": "高速数传基带",
+            "device_key": "DDT",
+            "equipment_icon": "normal",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "载波锁定",
+                    "value": 2,
+                    "key": "status"
+                },
+                {
+                    "label": "码元锁定",
+                    "value": 1,
+                    "key": "status"
+                },
+                {
+                    "label": "码速率",
+                    "value": "450M"
+                },
+                {
+                    "label": "解调模式",
+                    "value": "BPSK"
+                },
+                {
+                    "label": "Eb/N0",
+                    "value": "30.1dB"
+                },
+                {
+                    "label": "AGC",
+                    "value": "30.1dB"
+                }
+            ],
+            "equipment_style": {
+                "width": "48%"
+            },
+            "style": {
+                "top": 512,
+                "left": 1338,
+                "width": 270,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 98,
+            "type": "equipment",
+            "equipment_name": "DTE",
+            "device_key": "DTE",
+            "parent_id": [
+                101,
+                102,
+                96
+            ],
+            "children_id": 105,
+            "equipment_icon": "dte",
+            "status": "NORMAL",
+            "equipment_details": [
+                {
+                    "label": "设备情况",
+                    "value": "正常"
+                },
+                {
+                    "label": "控制方式",
+                    "value": "本控"
+                },
+                {
+                    "label": "工作方式",
+                    "value": "待机"
+                }
+            ],
+            "style": {
+                "top": 221,
+                "left": 1675,
+                "width": 144,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 99,
+            "type": "equipment",
+            "parent_id": 105,
+            "children_id": 107,
+            "equipment_name": "防火墙/交换机",
+            "equipment_icon": "",
+            "status": "NORMAL",
+            "equipment_details": [],
+            "style": {
+                "top": 371,
+                "left": 1688,
+                "width": 118,
+                "height": 118,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 100,
+            "type": "equipment",
+            "parent_id": [
+                106,
+                103
+            ],
+            "children_id": null,
+            "equipment_name": "存储转发",
+            "equipment_icon": "",
+            "status": "NORMAL",
+            "equipment_details": [],
+            "style": {
+                "top": 517,
+                "left": 1688,
+                "width": 118,
+                "height": 118,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 101,
+            "type": "line-straight",
+            "parent_id": 125,
+            "children_id": 98,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 23 0,23 30,59 30",
+            "arrow_transform": "translate(59 30) rotate(180)",
+            "style": {
+                "top": 223,
+                "left": 1558,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 102,
+            "type": "line-straight",
+            "parent_id": 35,
+            "children_id": 98,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 23 0,23 -50,59 -50",
+            "arrow_transform": "translate(59 -50) rotate(180)",
+            "style": {
+                "top": 407,
+                "left": 1558,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 103,
+            "parent_id": 97,
+            "children_id": 100,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "line_points": "0 0, 40 0",
+            "arrow_transform": "translate(40 0) rotate(180)",
+            "style": {
+                "top": 570,
+                "left": 1608,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 104,
+            "type": "line-straight",
+            "parent_id": 26,
+            "children_id": 97,
+            "line_points": "0 0,32 0",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "status": "OFF_LINE",
+            "style": {
+                "top": 570,
+                "left": 1273,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 105,
+            "type": "line-straight",
+            "parent_id": 98,
+            "children_id": 99,
+            "line_points": "0 0,0 15",
+            "status": "NORMAL",
+            "arrow_transform": "translate(0 15) rotate(-90)",
+            "style": {
+                "top": 341,
+                "left": 1747,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 106,
+            "type": "line-straight",
+            "parent_id": 100,
+            "children_id": 99,
+            "status": "NORMAL",
+            "line_points": "0 0,0 -14",
+            "arrow_transform": "translate(0 -14) rotate(90)",
+            "style": {
+                "top": 514,
+                "left": 1747,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 107,
+            "type": "line-straight",
+            "parent_id": 99,
+            "children_id": null,
+            "line_points": "0 0,32 0",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "status": "NORMAL",
+            "style": {
+                "top": 430,
+                "left": 1805,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 110,
+            "parent_id": null,
+            "children_id": [
+                112,
+                111
+            ],
+            "type": "img",
+            "status": "OFF_LINE",
+            "style": {
+                "top": 170,
+                "left": 20,
+                "width": 177,
+                "height": 211,
+                "color": "#61666A"
+            }
+        },
+        {
+            "id": 115,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 16,
+            "children_id": 15,
+            "line_points": "0 0,18 0",
+            "arrow_transform": "translate(18 0) rotate(180)",
+            "no_arrow": true,
+            "no_circle": true,
+            "style": {
+                "top": 95,
+                "left": 395,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 116,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 70,
+            "children_id": 69,
+            "line_points": "0 0,16 0",
+            "arrow_transform": "translate(16 0) rotate(180)",
+            "no_arrow": true,
+            "no_circle": true,
+            "style": {
+                "top": 420,
+                "left": 398,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 120,
+            "type": "equipment",
+            "parent_id": 86,
+            "children_id": 123,
+            "equipment_name": "S下变频器",
+            "device_key": "SDC2",
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "s_fed": true,
+            "equipment_details": [
+                {
+                    "label": "衰减",
+                    "value": "30db"
+                },
+                {
+                    "label": "效率",
+                    "value": "12345.1234Hz"
+                }
+            ],
+            "style": {
+                "top": 510,
+                "left": 866,
+                "width": 170,
+                "height": 119,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "10px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 121,
+            "type": "line-straight",
+            "parent_id": 84,
+            "s_fed": true,
+            "children_id": 77,
+            "status": "OFF_LINE",
+            "line_points": "0 0,102 0",
+            "animateStartRight": true,
+            "arrow_transform": "",
+            "line_circle": {
+                "cx": 318,
+                "cy": -17
+            },
+            "style": {
+                "top": 418,
+                "left": 660,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 123,
+            "type": "line-straight",
+            "s_fed": true,
+            "parent_id": 120,
+            "children_id": 26,
+            "status": "OFF_LINE",
+            "line_points": "0 0,30 0, 30 0,92 0",
+            "arrow_transform": "translate(92 0) rotate(180)",
+            "style": {
+                "top": 570,
+                "left": 1040,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 125,
+            "type": "equipment",
+            "equipment_name": "综合基带(测控)",
+            "device_key": "BBE",
+            "parent_id": 96,
+            "children_id": 101,
+            "equipment_icon": "acu",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "工作方式",
+                    "value": "待机"
+                },
+                {
+                    "label": "天线位置",
+                    "value": "123.123，123.123"
+                },
+                {
+                    "label": "相位",
+                    "value": "123，123"
+                }
+            ],
+            "style": {
+                "top": 175,
+                "left": 1338,
+                "width": 220,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            }
+        },
+        {
+            "id": 126,
+            "type": "line-straight",
+            "line_points": "0 0,32 0",
+            "parent_id": 26,
+            "children_id": 35,
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 235,
+                "left": 1273,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 127,
+            "type": "line-straight",
+            "line_points": "0 0,35 0",
+            "parent_id": 26,
+            "children_id": 35,
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(35 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 95,
+                "left": 1558,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 130,
+            "type": "rect-mini",
+            "parent_id": null,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "style": {
+                "top": 238,
+                "left": 590,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #C3C9D2",
+                "borderRadius": [
+                    2
+                ]
+            }
+        },
+        {
+            "id": 135,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 15,
+            "children_id": 2,
+            "line_points": "0 0,22 0",
+            "arrow_transform": "translate(12 0) rotate(180)",
+            "animateStartRight": true,
+            "no_arrow": true,
+            "no_circle": true,
+            "style": {
+                "top": 95,
+                "left": 440,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        },
+        {
+            "id": 136,
+            "type": "line-straight",
+            "parent_id": 47,
+            "children_id": 130,
+            "status": "OFF_LINE",
+            "line_points": "0 0,15 0",
+            "no_arrow": 1,
+            "arrow_transform": "translate(41 -8) rotate(90)",
+            "style": {
+                "top": 243,
+                "left": 614,
+                "width": 29,
+                "color": "#C3C9D2"
+            }
+        },
+        {
+            "id": 137,
+            "type": "line-straight",
+            "parent_id": 47,
+            "children_id": 36,
+            "status": "OFF_LINE",
+            "line_points": "0 0,100 0",
+            "arrow_transform": "translate(100 0) rotate(180)",
+            "style": {
+                "top": 244,
+                "left": 660,
+                "width": 29,
+                "color": "#C3C9D2"
+            }
+        },
+        {
+            "id": 138,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 77,
+            "children_id": 70,
+            "s_fed": true,
+            "line_points": "0 0,24 0",
+            "arrow_transform": "translate(12 0) rotate(180)",
+            "animateStartRight": true,
+            "no_arrow": true,
+            "no_circle": true,
+            "style": {
+                "top": 419,
+                "left": 440,
+                "width": 29,
+                "color": "#3474E4"
+            }
+        }
+    ]
+}

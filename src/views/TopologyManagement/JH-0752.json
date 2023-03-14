@@ -1,0 +1,3279 @@
+{
+    "polarity_device": [
+        "ACU",
+        "CPB"
+    ],
+    "always_online": [
+        22,
+        23,
+        24,
+        25,
+        29,
+        38,
+        63,
+        64,
+        65,
+        66,
+        78,
+        79,
+        80,
+        81,
+        98,
+        99,
+        100
+    ],
+    "matrix": {
+        "70M": 26,
+        "1.2G": 51
+    },
+    "element": [
+        {
+            "device_key": "IF_MATRIX",
+            "deviceId": "",
+            "deviceStatus": "OFF_LINE",
+            "name": "中频矩阵",
+            "key": "fwxpz49q-7cog-e8s0-ykqv-7olfu4ymu87s",
+            "id": 1
+        },
+        {
+            "id": 2,
+            "status": "OFF_LINE",
+            "type": "round_rect",
+            "text": "X频段馈源",
+            "style": {
+                "width": 47,
+                "height": 310,
+                "top": 10,
+                "left": 219,
+                "color": "#167AFF",
+                "background": "var(--yx-background-3)",
+                "border": "2px solid #FFFFFF",
+                "borderRadius": [
+                    20
+                ],
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "lineHeight": "35px"
+            },
+            "key": "2ivpgj2a-xlm1-p14y-h1kj-eepdlhrkx4tt"
+        },
+        {
+            "id": 3,
+            "status": "OFF_LINE",
+            "type": "round_rect",
+            "text": "Ka频段馈源",
+            "style": {
+                "width": 47,
+                "height": 310,
+                "top": 340,
+                "left": 219,
+                "background": "var(--yx-background-3)",
+                "border": "2px solid #FFFFFF",
+                "color": "#07D0D0",
+                "borderRadius": [
+                    20
+                ],
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "lineHeight": "35px"
+            },
+            "key": "ii1k9dx2-ux82-96pn-3mcf-awv1x5hwmgt5"
+        },
+        {
+            "id": 4,
+            "type": "arrow",
+            "children_id": 9,
+            "status": "OFF_LINE",
+            "parent_id": 1,
+            "style": {
+                "top": 30,
+                "left": 266,
+                "width": 10,
+                "color": "var(--yx-font-4)"
+            },
+            "key": "zmasqrbd-2qxa-8hdw-ksql-r22eb5jgh1mz"
+        },
+        {
+            "id": 5,
+            "children_id": 10,
+            "status": "OFF_LINE",
+            "parent_id": 1,
+            "type": "arrow",
+            "style": {
+                "top": 73,
+                "left": 266,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": ""
+            },
+            "key": "po6lfokk-bujj-1e6y-vn22-hc2xrqo625vy"
+        },
+        {
+            "id": 6,
+            "type": "arrow",
+            "status": "OFF_LINE",
+            "children_id": 11,
+            "parent_id": 1,
+            "style": {
+                "top": 156,
+                "left": 264,
+                "width": 10,
+                "color": "#3474E4",
+                "transform": "translate(11,0) rotate(180)"
+            },
+            "key": "o8a1calg-1i2y-ipo6-x9km-x0w3x9ew3qw2"
+        },
+        {
+            "id": 7,
+            "type": "arrow",
+            "children_id": 12,
+            "status": "OFF_LINE",
+            "parent_id": 1,
+            "style": {
+                "top": 206,
+                "left": 264,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": "translate(11,0) rotate(180)"
+            },
+            "key": "t2mwej63-bvdx-96f9-3vxk-ukl33jdxlio5"
+        },
+        {
+            "id": 8,
+            "type": "arrow",
+            "children_id": 13,
+            "status": "OFF_LINE",
+            "parent_id": 1,
+            "style": {
+                "top": 256,
+                "left": 264,
+                "width": 10,
+                "color": "#3474E4",
+                "transform": "translate(11,0) rotate(180)"
+            },
+            "key": "g888w2ob-mn49-docl-n372-3cg7x64qk3py"
+        },
+        {
+            "id": 9,
+            "type": "arrow",
+            "children_id": 14,
+            "status": "OFF_LINE",
+            "parent_id": 1,
+            "style": {
+                "top": 303,
+                "left": 264,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": "translate(11,0) rotate(180)"
+            },
+            "key": "fytc475z-i0fh-dzyc-4ul3-ttzzliu6a2kz"
+        },
+        {
+            "id": 10,
+            "type": "round_rect_mini",
+            "text": "LHPC",
+            "children_id": 67,
+            "status": "OFF_LINE",
+            "parent_id": 3,
+            "style": {
+                "top": 18,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "u313mg82-oqsh-36t0-j8ep-x75w6wfvtydq"
+        },
+        {
+            "id": 11,
+            "type": "round_rect_mini",
+            "children_id": 68,
+            "status": "OFF_LINE",
+            "parent_id": 4,
+            "text": "RHPC",
+            "style": {
+                "top": 62,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "background": "#F1F4F7",
+                "border": "1px solid #FFFFFF",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "x9n8dgtq-vbrx-2g5o-knv0-pinj57qbjvyk"
+        },
+        {
+            "id": 12,
+            "type": "round_rect_mini",
+            "text": "LHPC",
+            "children_id": 17,
+            "status": "OFF_LINE",
+            "parent_id": 5,
+            "style": {
+                "top": 144,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "xuj2glix-62jn-p6sd-owqq-gtfb3pin68f3"
+        },
+        {
+            "id": 13,
+            "type": "round_rect_mini",
+            "status": "OFF_LINE",
+            "text": "RHPC",
+            "children_id": 18,
+            "parent_id": 6,
+            "style": {
+                "top": 196,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "border": "1px solid #FFFFFF",
+                "background": "#F1F4F7",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "bw22b3k4-eypq-oilb-aatm-mngl5sknelgr"
+        },
+        {
+            "id": 14,
+            "type": "round_rect_mini",
+            "status": "OFF_LINE",
+            "children_id": 19,
+            "parent_id": 7,
+            "text": "LHPC",
+            "style": {
+                "top": 244,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "4x77hcek-kb3c-vu45-sdmt-01ri0id8gwen"
+        },
+        {
+            "id": 15,
+            "type": "round_rect_mini",
+            "text": "RHPC",
+            "status": "OFF_LINE",
+            "children_id": 20,
+            "parent_id": 8,
+            "style": {
+                "top": 291,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "border": "1px solid #FFFFFF",
+                "background": "#F1F4F7",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "bl5sgnan-uddu-ptmh-12xm-9j7qw23c2rs3"
+        },
+        {
+            "id": 16,
+            "type": "rect-mini",
+            "status": "OFF_LINE",
+            "children_id": 20,
+            "parent_id": 8,
+            "style": {
+                "top": 46,
+                "left": 343,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #fff",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "o63pcsoc-eqcz-swo3-2hol-eh3kveypmgej"
+        },
+        {
+            "id": 17,
+            "type": "ball-mini",
+            "status": "OFF_LINE",
+            "paramKey": "ACU_JX_X_3",
+            "paramValue": "ACU_JX_X_3_SET",
+            "line_color": "#C3C9D2",
+            "active_color": "rgb(52, 116, 228)",
+            "parent_id": [
+                67,
+                68
+            ],
+            "children_id": 135,
+            "polarity": {
+                "1": [
+                    67,
+                    9,
+                    3
+                ],
+                "2": [
+                    68,
+                    10,
+                    4
+                ]
+            },
+            "direction": {
+                "left": "1",
+                "right": "2"
+            },
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 40,
+                "left": 390,
+                "width": 20,
+                "height": 20,
+                "transition": "all 0.5s ease 0s",
+                "zIndex": 2,
+                "color": "#A2B2C5",
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "c8ybo6o9-ga8s-vpu7-xjvk-qaelophvqm34"
+        },
+        {
+            "id": 18,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "children_id": 22,
+            "parent_id": 11,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "style": {
+                "top": 156,
+                "left": 358,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "fsbf4so7-esn9-sj57-ko41-yc1qx35u3icq"
+        },
+        {
+            "id": 19,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "children_id": 23,
+            "parent_id": 12,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "style": {
+                "top": 206,
+                "left": 358,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "1oxq3gv8-oqxf-9xs2-dzqg-h8xjv2u7orms"
+        },
+        {
+            "id": 20,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "line_points": "0 0, 29 0",
+            "children_id": 24,
+            "parent_id": 13,
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "style": {
+                "top": 256,
+                "left": 358,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "23yoxc18-ojgx-t1am-ba9u-943ieyno7a9v"
+        },
+        {
+            "id": 21,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "line_points": "0 0, 29 0",
+            "children_id": 25,
+            "parent_id": 14,
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "style": {
+                "top": 302,
+                "left": 358,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "mg9niwv6-603m-h5xs-irdx-ahivdpwix65o"
+        },
+        {
+            "id": 22,
+            "type": "equipment",
+            "status": "OFF_LINE",
+            "children_id": 16,
+            "parent_id": 27,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "X-BUC",
+            "device_key": "X_BUC",
+            "equipment_icon": "buc",
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                },
+                {
+                    "label": "输出功率",
+                    "value": "00dBm"
+                }
+            ],
+            "style": {
+                "top": 10,
+                "left": 418,
+                "width": 170,
+                "height": 114,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "jr6f7l03-qdwz-xdbr-kr4k-kat89wbvyilj"
+        },
+        {
+            "id": 23,
+            "type": "equipment",
+            "line_points": "0 0, 29 0",
+            "parent_id": 17,
+            "children_id": 28,
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "X和场放左",
+            "equipment_icon": "add-play",
+            "status": "null",
+            "equipment_details": [],
+            "style": {
+                "top": 139,
+                "left": 418,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            },
+            "key": "q5r8ymac-c5nh-5png-78mq-doxkcrwfa35t"
+        },
+        {
+            "id": 24,
+            "type": "equipment",
+            "line_points": "0 0, 29 0",
+            "parent_id": 18,
+            "children_id": 39,
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "X和场放右",
+            "equipment_icon": "add-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 191,
+                "left": 418,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            },
+            "key": "j5y1jxl4-rmlr-vo23-q5mw-rsu364zmgf6g"
+        },
+        {
+            "id": 25,
+            "type": "equipment",
+            "line_points": "0 0, 29 0",
+            "parent_id": 19,
+            "children_id": 45,
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "X差场放左",
+            "equipment_icon": "bad-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 239,
+                "left": 418,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            },
+            "key": "lbgl7ad2-efqr-t78b-pvtr-ctt0vckhctro"
+        },
+        {
+            "id": 26,
+            "type": "equipment",
+            "parent_id": 20,
+            "children_id": 46,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "X差场放右",
+            "equipment_icon": "bad-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 286,
+                "left": 418,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            },
+            "key": "xt5hktr5-s1ft-75fk-6hyd-qt039xg7wrel"
+        },
+        {
+            "id": 27,
+            "type": "round_rect",
+            "parent_id": [
+                27,
+                32,
+                49,
+                50,
+                48,
+                82,
+                92,
+                93
+            ],
+            "children_id": [
+                94,
+                95,
+                27,
+                126
+            ],
+            "status": "OFF_LINE",
+            "text": "70M矩阵",
+            "style": {
+                "width": 47,
+                "height": 458,
+                "top": 10,
+                "left": 1226,
+                "color": "#167AFF",
+                "background": "rgba(255,255,255,0.12)",
+                "border": "2px solid #2680EB",
+                "borderRadius": [
+                    20
+                ],
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "lineHeight": "35px",
+                "wordBreak": "break-all"
+            },
+            "key": "sh1wppgu-2191-8396-tmky-38la712fpj5v"
+        },
+        {
+            "id": 28,
+            "status": "OFF_LINE",
+            "type": "line-straight",
+            "line_points": "0 0, 80 0 ,80 -17, 318 -17",
+            "parent_id": 21,
+            "children_id": 26,
+            "animateStartRight": true,
+            "arrow_transform": "",
+            "line_circle": {
+                "cx": 318,
+                "cy": -17
+            },
+            "style": {
+                "top": 57,
+                "left": 589,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "nb2w90oa-lvzg-zhic-itfa-8xrqrtb3rhs3"
+        },
+        {
+            "id": 29,
+            "type": "line-straight",
+            "parent_id": 22,
+            "status": "OFF_LINE",
+            "children_id": 29,
+            "line_points": "0 0, 26 0, 26 -15, 36 -15",
+            "arrow_transform": "translate(36 -15) rotate(180)",
+            "style": {
+                "top": 155,
+                "left": 541,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "238guu2x-23o2-fjfo-6fwo-mbqy9yeye6w5"
+        },
+        {
+            "id": 30,
+            "type": "rect-mini",
+            "text": "功分器",
+            "parent_id": 28,
+            "status": "OFF_LINE",
+            "equipment_name": "功分器1",
+            "children_id": [
+                30,
+                42,
+                117
+            ],
+            "style": {
+                "top": 83,
+                "left": 614,
+                "width": 34,
+                "height": 78,
+                "color": "#4B4F55",
+                "background": "#FFFFFF",
+                "borderRadius": [
+                    2
+                ],
+                "fontSize": "14px"
+            },
+            "key": "blv68x1y-myx7-n68p-t2al-iubtlgu33brk"
+        },
+        {
+            "id": 31,
+            "type": "line-straight",
+            "parent_id": 29,
+            "status": "OFF_LINE",
+            "children_id": 31,
+            "line_points": "0 0, 20 0, 20 -10,45 -10,45 0",
+            "no_arrow": true,
+            "style": {
+                "top": 95,
+                "left": 649,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "8ql76i1w-dhte-f1ub-2umj-kwe9x0c9gvjf"
+        },
+        {
+            "id": 32,
+            "type": "equipment",
+            "equipment_name": "X下变频器1",
+            "device_key": "XDC1",
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "parent_id": 30,
+            "children_id": [
+                32,
+                54
+            ],
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                }
+            ],
+            "style": {
+                "top": 38,
+                "left": 918,
+                "width": 170,
+                "height": 94,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px",
+                "fontSize": "14px"
+            },
+            "key": "mk9ekptv-g2pu-1wp2-7vxw-nuivj7jhip47"
+        },
+        {
+            "id": 33,
+            "type": "line-straight",
+            "parent_id": 31,
+            "status": "OFF_LINE",
+            "children_id": 26,
+            "line_points": "0 0, 68 0",
+            "arrow_transform": "translate(68 0) rotate(180)",
+            "style": {
+                "top": 85,
+                "left": 1089,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "yqmux99g-ulxs-8t4z-j82d-vc2bhoz5qyee"
+        },
+        {
+            "id": 34,
+            "type": "equipment",
+            "equipment_name": "跟踪接收机",
+            "device_key": "TRK",
+            "parent_id": 94,
+            "children_id": 127,
+            "equipment_icon": "track-machine",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                },
+                {
+                    "label": "跟踪模式",
+                    "value": "单载频"
+                }
+            ],
+            "style": {
+                "top": 20,
+                "left": 1338,
+                "width": 220,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "fpaxwdtx-bj5v-dcti-7p2k-v8fq5blb8cte"
+        },
+        {
+            "id": 35,
+            "type": "equipment",
+            "equipment_name": "天线控制",
+            "device_key": "ACU",
+            "parent_id": 127,
+            "children_id": 96,
+            "equipment_icon": "acu",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "工作方式",
+                    "value": "待机"
+                },
+                {
+                    "label": "天线位置",
+                    "value": "123.123，123.123"
+                },
+                {
+                    "label": "相位",
+                    "value": "123，123"
+                }
+            ],
+            "style": {
+                "top": 35,
+                "left": 1631,
+                "width": 220,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "p2pl3ax5-pbm6-bzh3-mxgi-mlg4m1z8y1th"
+        },
+        {
+            "id": 36,
+            "type": "equipment",
+            "equipment_name": "综合基带(中低速)",
+            "device_key": "BBE2",
+            "parent_id": 95,
+            "children_id": 102,
+            "equipment_icon": "normal",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "工作方式",
+                    "value": "标准"
+                },
+                {
+                    "label": "上行频率",
+                    "value": "1234.1234MHz"
+                },
+                {
+                    "label": "下行频率",
+                    "value": "1234.1234MHz"
+                },
+                {
+                    "label": "监控模式",
+                    "value": "低速数传"
+                }
+            ],
+            "style": {
+                "top": 324,
+                "left": 1338,
+                "width": 220,
+                "height": 154,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "hsp754tt-5i2x-x4pw-4sxk-sjjxk7f9xrhg"
+        },
+        {
+            "id": 37,
+            "type": "equipment",
+            "equipment_name": "X下变频器2",
+            "device_key": "XDC2",
+            "parent_id": 40,
+            "children_id": [
+                53
+            ],
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                }
+            ],
+            "style": {
+                "top": 138,
+                "left": 918,
+                "width": 170,
+                "height": 94,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px",
+                "fontSize": "14px"
+            },
+            "key": "q7p3um7i-jroy-dkwg-cxo3-y0xk6rx0h4uy"
+        },
+        {
+            "id": 38,
+            "type": "equipment",
+            "equipment_name": "X下变频器3",
+            "device_key": "XDC3",
+            "parent_id": 42,
+            "children_id": [
+                52
+            ],
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                }
+            ],
+            "style": {
+                "top": 238,
+                "left": 918,
+                "width": 170,
+                "height": 94,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "10px 5px",
+                "fontSize": "14px"
+            },
+            "key": "2xs3u13z-jft2-ruxt-senm-cfal4yr21ln4"
+        },
+        {
+            "id": 39,
+            "type": "rect-mini",
+            "text": "功分器",
+            "parent_id": 39,
+            "status": "OFF_LINE",
+            "equipment_name": "功分器2",
+            "children_id": [
+                40,
+                43,
+                118
+            ],
+            "style": {
+                "top": 168,
+                "left": 614,
+                "width": 34,
+                "height": 78,
+                "color": "#4B4F55",
+                "background": "#FFFFFF",
+                "borderRadius": [
+                    2
+                ],
+                "fontSize": "14px"
+            },
+            "key": "w6gau9ig-mvce-mmvv-9gpd-ej14t3al1ape"
+        },
+        {
+            "id": 40,
+            "type": "line-straight",
+            "line_points": "0 0, 36 0",
+            "parent_id": 23,
+            "children_id": 38,
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(36 0) rotate(180)",
+            "style": {
+                "top": 207,
+                "left": 541,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "xcgd75i2-cr6h-6rsx-fjr7-oe6v3wxdnhi4"
+        },
+        {
+            "id": 41,
+            "type": "line-straight",
+            "line_points": "0 0, 105 0,105 40,133 40",
+            "parent_id": 38,
+            "children_id": 36,
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(133 40) rotate(180)",
+            "style": {
+                "top": 205,
+                "left": 649,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "sbagmvmp-2yux-q91e-nmmk-uaz8p81jliov"
+        },
+        {
+            "id": 42,
+            "type": "equipment",
+            "equipment_name": "X/Ka跟踪信道",
+            "device_key": "X_CIN",
+            "parent_id": [
+                44,
+                47
+            ],
+            "children_id": 48,
+            "equipment_icon": "comprise-network",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "旋向",
+                    "value": "左旋"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                }
+            ],
+            "style": {
+                "top": 262,
+                "left": 677,
+                "width": 170,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 12px",
+                "fontSize": "14px"
+            },
+            "key": "dwfynq4p-j4vp-ttt5-u8y9-np5dqrmhcun0"
+        },
+        {
+            "id": 43,
+            "type": "line-straight",
+            "parent_id": 29,
+            "children_id": 44,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 51 0 ,51 40",
+            "no_arrow": true,
+            "style": {
+                "top": 142,
+                "left": 649,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "r1blgdwf-2sw5-7x4j-fpt3-pvod08o9ptc3"
+        },
+        {
+            "id": 44,
+            "type": "line-straight",
+            "parent_id": 38,
+            "children_id": 41,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 50 0, 50 -8",
+            "arrow_transform": "translate(51 28) rotate(-90)",
+            "no_arrow": true,
+            "active_color": "#C3C9D2",
+            "style": {
+                "top": 235,
+                "left": 649,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "kk49amh5-d903-2q1l-jj1t-5njhwiyphhdh"
+        },
+        {
+            "id": 45,
+            "type": "ball-mini",
+            "paramKey": "CPB_JX_6",
+            "paramValue": "CPB_JX_6_SET",
+            "parent_id": [
+                42,
+                43
+            ],
+            "status": "OFF_LINE",
+            "polarity": {
+                "10": [
+                    43,
+                    12,
+                    6,
+                    18
+                ],
+                "01": [
+                    42,
+                    17,
+                    11,
+                    5
+                ]
+            },
+            "direction": {
+                "left": "01",
+                "right": "10"
+            },
+            "children_id": 133,
+            "active_color": "rgb(52, 116, 228)",
+            "line_color": "#C3C9D2",
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 213,
+                "left": 741,
+                "width": 20,
+                "height": 20,
+                "color": "#A2B2C5",
+                "transition": "all 0.5s ease 0s",
+                "zIndex": 2,
+                "transform": "scale(2.008) translate(0, 0.5)",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "dd0gwnu5-iu69-yo11-xblm-pcbebqp6acnq"
+        },
+        {
+            "id": 46,
+            "type": "line-straight",
+            "parent_id": 24,
+            "children_id": 47,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 42 0,42 13.5",
+            "no_arrow": true,
+            "style": {
+                "top": 256,
+                "left": 541,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "uss3vc4q-mgbd-bwwb-yo1n-nkm9doip0sye"
+        },
+        {
+            "id": 47,
+            "type": "line-straight",
+            "parent_id": 25,
+            "children_id": 47,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 41.5 0, 41.5 -10",
+            "no_arrow": 1,
+            "arrow_transform": "translate(41 -8) rotate(90)",
+            "style": {
+                "top": 302,
+                "left": 541,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "q8xelezn-agnv-4qhy-gjia-sknean76uhnw"
+        },
+        {
+            "id": 48,
+            "type": "ball-mini",
+            "paramKey": "ACU_JX_X_2",
+            "paramValue": "ACU_JX_X_2_SET",
+            "parent_id": [
+                45,
+                46
+            ],
+            "polarity": {
+                "1": [
+                    45,
+                    19,
+                    13,
+                    7
+                ],
+                "2": [
+                    46,
+                    20,
+                    14,
+                    8
+                ]
+            },
+            "direction": {
+                "left": "1",
+                "right": "2"
+            },
+            "children_id": 137,
+            "status": "OFF_LINE",
+            "active_color": "rgb(52, 116, 228)",
+            "line_color": "#C3C9D2",
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 273,
+                "left": 615,
+                "width": 20,
+                "height": 20,
+                "transition": "all 0.5s ease 0s",
+                "color": "#A2B2C5",
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ],
+                "zIndex": 2
+            },
+            "key": "g99wjdv6-riwi-0qn7-y4k2-skcif55fsmpg"
+        },
+        {
+            "id": 49,
+            "type": "line-straight",
+            "parent_id": 41,
+            "children_id": 26,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 188 0 ",
+            "arrow_transform": "translate(188 0) rotate(180)",
+            "style": {
+                "top": 340,
+                "left": 847,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "on8imibs-lond-swgb-ldbq-ghwfltfol4dz"
+        },
+        {
+            "id": 50,
+            "type": "round_rect",
+            "text": "1.2G矩阵",
+            "parent_id": [
+                52,
+                53,
+                54
+            ],
+            "status": "OFF_LINE",
+            "children_id": 104,
+            "style": {
+                "width": 47,
+                "height": 172,
+                "top": 479,
+                "left": 1226,
+                "color": "#334681",
+                "background": "rgba(255,255,255,0.12)",
+                "border": "2px solid #fff",
+                "borderRadius": [
+                    20
+                ],
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "lineHeight": "25px",
+                "wordBreak": "break-all"
+            },
+            "key": "t1hyunmf-kusk-m35u-6igf-ouoyl4rpqs4l"
+        },
+        {
+            "id": 51,
+            "type": "line-straight",
+            "parent_id": 37,
+            "status": "OFF_LINE",
+            "children_id": 51,
+            "line_points": "0 0, 34 0, 34 135,68 135",
+            "arrow_transform": "translate(68 135) rotate(180)",
+            "style": {
+                "top": 290,
+                "left": 1088,
+                "width": 29,
+                "color": "#fff"
+            },
+            "key": "amwk0yll-567j-9y5q-pao7-6gh1a1lz1ibw"
+        },
+        {
+            "id": 52,
+            "type": "line-straight",
+            "parent_id": 36,
+            "children_id": 51,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 48 0, 48 170,68 170",
+            "arrow_transform": "translate(68 170) rotate(180)",
+            "style": {
+                "top": 190,
+                "left": 1088,
+                "width": 29,
+                "color": "#fff"
+            },
+            "key": "hnx6c3ng-prg5-1wtj-tgm0-9o0xbb55ldr4"
+        },
+        {
+            "id": 53,
+            "type": "line-straight",
+            "parent_id": 31,
+            "children_id": 51,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 60 0, 60 202,68 202",
+            "arrow_transform": "translate(68 202) rotate(180)",
+            "style": {
+                "top": 100,
+                "left": 1088,
+                "width": 29,
+                "color": "#fff"
+            },
+            "key": "bhgpssiy-sxr1-x5l3-jb7s-7anvyvxgx7l4"
+        },
+        {
+            "id": 54,
+            "type": "arrow",
+            "parent_id": 2,
+            "status": "OFF_LINE",
+            "children_id": 61,
+            "s_fed": true,
+            "style": {
+                "top": 360,
+                "left": 266,
+                "width": 10,
+                "color": "#3474E4"
+            },
+            "key": "i2ma3akp-t4g7-fh53-lgv2-3li3bd50wggj"
+        },
+        {
+            "id": 55,
+            "type": "arrow",
+            "s_fed": true,
+            "parent_id": 2,
+            "status": "OFF_LINE",
+            "children_id": 62,
+            "style": {
+                "top": 403,
+                "left": 266,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": ""
+            },
+            "key": "6mwi4kyg-td10-xeuh-oo5d-9vj64mj17eav"
+        },
+        {
+            "id": 56,
+            "type": "arrow",
+            "parent_id": 2,
+            "children_id": 63,
+            "status": "NORMAL",
+            "s_fed": true,
+            "style": {
+                "top": 486,
+                "left": 264,
+                "width": 10,
+                "color": "#3474E4",
+                "transform": "translate(11,0) rotate(180)"
+            },
+            "key": "794j8yah-7rz9-1947-qlm5-kedwutu6rdnf"
+        },
+        {
+            "id": 57,
+            "type": "arrow",
+            "parent_id": 2,
+            "children_id": 64,
+            "status": "NORMAL",
+            "s_fed": true,
+            "style": {
+                "top": 530,
+                "left": 264,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": "translate(11,0) rotate(180)"
+            },
+            "key": "84yahioc-lb9f-8ozy-ajc5-a7i18xg15rhz"
+        },
+        {
+            "id": 58,
+            "type": "arrow",
+            "parent_id": 2,
+            "children_id": 65,
+            "status": "NORMAL",
+            "s_fed": true,
+            "style": {
+                "top": 574,
+                "left": 264,
+                "width": 10,
+                "color": "#3474E4",
+                "transform": "translate(11,0) rotate(180)"
+            },
+            "key": "murn2ue4-r84u-s4d6-hkmy-xpywpscj86fi"
+        },
+        {
+            "id": 59,
+            "type": "arrow",
+            "parent_id": 2,
+            "status": "NORMAL",
+            "s_fed": true,
+            "children_id": 66,
+            "style": {
+                "top": 618,
+                "left": 264,
+                "width": 10,
+                "color": "#C3C9D2",
+                "transform": "translate(11,0) rotate(180)"
+            },
+            "key": "udf223kb-ca5g-kpth-ue7w-v6a5ee19u564"
+        },
+        {
+            "id": 60,
+            "type": "round_rect_mini",
+            "parent_id": 55,
+            "status": "OFF_LINE",
+            "children_id": 75,
+            "text": "LHPC",
+            "s_fed": true,
+            "style": {
+                "top": 348,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "eggi2zqs-wxs8-wtig-chb6-sm8h7oc6ygkc"
+        },
+        {
+            "id": 61,
+            "status": "OFF_LINE",
+            "type": "round_rect_mini",
+            "parent_id": 56,
+            "children_id": 76,
+            "text": "RHPC",
+            "s_fed": true,
+            "style": {
+                "top": 392,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "border": "1px solid #FFFFFF",
+                "background": "#F1F4F7",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "gm6fjtew-sips-7557-tqf1-6n2qdewt17lt"
+        },
+        {
+            "id": 62,
+            "type": "round_rect_mini",
+            "status": "OFF_LINE",
+            "parent_id": 57,
+            "children_id": 71,
+            "text": "LHPC",
+            "s_fed": true,
+            "style": {
+                "top": 474,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "qfkatkci-fs1c-mmvx-bpu9-jwx4j2yqx7eh"
+        },
+        {
+            "id": 63,
+            "type": "round_rect_mini",
+            "parent_id": 58,
+            "s_fed": true,
+            "status": "OFF_LINE",
+            "children_id": 72,
+            "text": "RHPC",
+            "style": {
+                "top": 520,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "border": "1px solid #FFFFFF",
+                "background": "#F1F4F7",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "klxydgde-cz6r-xt7d-w095-wi8vrpo5udtd"
+        },
+        {
+            "id": 64,
+            "type": "round_rect_mini",
+            "parent_id": 59,
+            "s_fed": true,
+            "status": "OFF_LINE",
+            "children_id": 73,
+            "text": "LHPC",
+            "style": {
+                "top": 562,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#fff",
+                "border": "1px solid #FFFFFF",
+                "background": "linear-gradient(90deg, #0069FF 0%, rgba(0,105,255,0) 100%)",
+                "borderRadius": [
+                    12
+                ],
+                "fontSize": "16px",
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "hui8l9f9-m9ll-cq2u-ohin-vbswtacq7lul"
+        },
+        {
+            "id": 65,
+            "type": "round_rect_mini",
+            "parent_id": 60,
+            "s_fed": true,
+            "status": "OFF_LINE",
+            "children_id": 74,
+            "text": "RHPC",
+            "style": {
+                "top": 606,
+                "left": 286,
+                "width": 72,
+                "height": 24,
+                "color": "#C3C9D2",
+                "border": "1px solid #FFFFFF",
+                "background": "#F1F4F7",
+                "borderRadius": [
+                    20
+                ],
+                "textAlign": "center",
+                "lineHeight": "24px"
+            },
+            "key": "yeu75ala-c5m7-xgw1-4lua-j59rqd7f0w1w"
+        },
+        {
+            "id": 66,
+            "type": "line-straight",
+            "parent_id": 9,
+            "status": "OFF_LINE",
+            "children_id": 16,
+            "text": "RHPC",
+            "line_points": "0 0,21 0, 21 10",
+            "arrow_transform": "translate(0 0) rotate(0)",
+            "animateStartRight": true,
+            "line_circle": {
+                "cx": 30,
+                "cy": 9.5
+            },
+            "style": {
+                "top": 30,
+                "left": 358,
+                "width": 20,
+                "height": 24,
+                "color": "#3474E4"
+            },
+            "key": "chofm5fg-dg99-xnqk-eofl-5t5oghyr7wlb"
+        },
+        {
+            "id": 67,
+            "parent_id": 10,
+            "status": "OFF_LINE",
+            "children_id": 16,
+            "type": "line-straight",
+            "text": "RHPC",
+            "line_points": "0 0,21 0,21 -12",
+            "arrow_transform": "translate(0 0) rotate(0)",
+            "animateStartRight": true,
+            "no_circle": false,
+            "line_circle": {
+                "cx": 30,
+                "cy": -12
+            },
+            "style": {
+                "top": 73,
+                "left": 358,
+                "width": 22,
+                "height": 24,
+                "color": "#C3C9D2"
+            },
+            "key": "hjdp2oa2-4hk1-3sep-m78c-kuffnau4wimx"
+        },
+        {
+            "id": 68,
+            "type": "rect-mini",
+            "parent_id": null,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "style": {
+                "top": 376,
+                "left": 343,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #C3C9D2",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "jk9d7je4-xady-lxa9-f77q-f4mogzmq2oef"
+        },
+        {
+            "id": 69,
+            "type": "ball-mini",
+            "paramKey": "ACU_JX_S_3",
+            "paramValue": "ACU_JX_S_3_SET",
+            "s_fed": true,
+            "polarity": {
+                "1": [
+                    75,
+                    61,
+                    55
+                ],
+                "2": [
+                    76,
+                    62,
+                    56
+                ]
+            },
+            "direction": {
+                "left": "1",
+                "right": "2"
+            },
+            "parent_id": [
+                75,
+                76
+            ],
+            "status": "OFF_LINE",
+            "children_id": 138,
+            "active_color": "rgb(52, 116, 228)",
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 370,
+                "left": 390,
+                "width": 20,
+                "height": 20,
+                "color": "#A2B2C5",
+                "transition": "all 0.5s ease 0s",
+                "zIndex": 2,
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "mn9r7cwk-e1v2-dp77-3wed-fs8zc8w3sjd7"
+        },
+        {
+            "id": 70,
+            "type": "line-straight",
+            "status": "NORMAL",
+            "parent_id": 63,
+            "children_id": 78,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "style": {
+                "top": 486,
+                "left": 358,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "v7t7fns2-2o3g-x4bt-fdmk-w09gurvrtiu2"
+        },
+        {
+            "id": 71,
+            "type": "line-straight",
+            "parent_id": 64,
+            "status": "NORMAL",
+            "children_id": 79,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "style": {
+                "top": 530,
+                "left": 358,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "gf0k6v15-w7fh-x2zn-igoz-gjqd6elo37ed"
+        },
+        {
+            "id": 72,
+            "type": "line-straight",
+            "parent_id": 65,
+            "status": "NORMAL",
+            "children_id": 80,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "style": {
+                "top": 574,
+                "left": 358,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "pgr7uc4k-kpg1-azgu-551v-baw7gc2q8sbx"
+        },
+        {
+            "id": 73,
+            "parent_id": 66,
+            "status": "NORMAL",
+            "children_id": 81,
+            "type": "line-straight",
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "style": {
+                "top": 618,
+                "left": 358,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "h7j2udaz-akoy-ta93-rq4l-idnjrrpqzx7o"
+        },
+        {
+            "id": 74,
+            "parent_id": 61,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "s_fed": true,
+            "type": "line-straight",
+            "line_points": "0 0,21 0, 21 10",
+            "animateStartRight": true,
+            "line_circle": {
+                "cx": 30,
+                "cy": 10
+            },
+            "style": {
+                "top": 360,
+                "left": 358,
+                "width": 21,
+                "height": 24,
+                "color": "#3474E4"
+            },
+            "key": "r20yqvu6-ot5x-v7s5-ndxc-cpomsflblmua"
+        },
+        {
+            "id": 75,
+            "type": "line-straight",
+            "parent_id": 62,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "line_points": "0 0,21 0, 21 -11.5",
+            "animateStartRight": true,
+            "s_fed": true,
+            "no_circle": false,
+            "line_circle": {
+                "cx": 30,
+                "cy": -12
+            },
+            "style": {
+                "top": 403,
+                "left": 358,
+                "width": 21,
+                "height": 24,
+                "color": "#C3C9D2"
+            },
+            "key": "t2ik38q4-rj8k-u9pf-q8om-3t4o0uxb45q0"
+        },
+        {
+            "id": 76,
+            "type": "equipment",
+            "parent_id": 70,
+            "status": "OFF_LINE",
+            "children_id": 82,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "Ka-BUC",
+            "device_key": "Ka_BUC",
+            "equipment_icon": "buc",
+            "s_fed": true,
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "12345.1234Hz"
+                },
+                {
+                    "label": "增益",
+                    "value": "00db"
+                },
+                {
+                    "label": "输出功率",
+                    "value": "00dBm"
+                }
+            ],
+            "style": {
+                "top": 335,
+                "left": 418,
+                "width": 170,
+                "height": 114,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px",
+                "zIndex": -1
+            },
+            "key": "cvz3bu9d-tuk7-1q99-yewc-gjse3dnt4ylk"
+        },
+        {
+            "id": 77,
+            "type": "equipment",
+            "parent_id": 71,
+            "s_fed": true,
+            "children_id": [
+                85,
+                121
+            ],
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "Ka和场放左",
+            "equipment_icon": "add-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 469,
+                "left": 418,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            },
+            "key": "332con1b-w1ks-81zy-86kb-7i6kt1lkubky"
+        },
+        {
+            "id": 78,
+            "type": "equipment",
+            "parent_id": 72,
+            "s_fed": true,
+            "children_id": [
+                86,
+                122
+            ],
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "Ka和场放右",
+            "equipment_icon": "add-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 515,
+                "left": 418,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            },
+            "key": "99bwiwwe-6ldg-i5dn-6tgg-74o76hmfa8tg"
+        },
+        {
+            "id": 79,
+            "type": "equipment",
+            "parent_id": 73,
+            "children_id": 88,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "Ka差场放左",
+            "s_fed": true,
+            "equipment_icon": "bad-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 558,
+                "left": 418,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            },
+            "key": "wc1sf97p-bxp2-viuv-t5hu-hs2on3spvbjg"
+        },
+        {
+            "id": 80,
+            "type": "equipment",
+            "parent_id": 74,
+            "children_id": 89,
+            "line_points": "0 0, 29 0",
+            "arrow_transform": "translate(29 0) rotate(180)",
+            "equipment_name": "Ka差场放右",
+            "s_fed": true,
+            "equipment_icon": "bad-play",
+            "status": null,
+            "equipment_details": [],
+            "style": {
+                "top": 602,
+                "left": 418,
+                "width": 123,
+                "height": 33,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "var(--yx-background-3)",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            },
+            "key": "c2e89o2z-9gbs-xqpk-f4kf-d6d2iivv38a3"
+        },
+        {
+            "id": 81,
+            "type": "line-straight",
+            "parent_id": 77,
+            "children_id": 26,
+            "line_points": "0 0, 146 0 ,146 -25,318 -25",
+            "status": "OFF_LINE",
+            "arrow_transform": "",
+            "animateStartRight": true,
+            "style": {
+                "top": 412,
+                "left": 588,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "kxg5b8y3-p21p-it7q-zapq-g2d78q3q6uy6"
+        },
+        {
+            "id": 82,
+            "type": "rect-mini",
+            "text": "功分器",
+            "parent_id": 28,
+            "status": "OFF_LINE",
+            "equipment_name": "功分器1",
+            "children_id": [
+                30,
+                42,
+                117
+            ],
+            "style": {
+                "top": 428,
+                "left": 677,
+                "width": 34,
+                "height": 78,
+                "color": "#4B4F55",
+                "background": "#FFFFFF",
+                "borderRadius": [
+                    2
+                ],
+                "fontSize": "14px"
+            },
+            "key": "g63cs157-or96-5y1a-kv1s-xyqd45kyx93m"
+        },
+        {
+            "id": 83,
+            "type": "line-straight",
+            "parent_id": 77,
+            "children_id": 26,
+            "no_arrow": true,
+            "line_points": "0 0,26 0, 26 10",
+            "status": "OFF_LINE",
+            "style": {
+                "top": 478,
+                "left": 712,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "a2u8sfb1-ifwx-m2n6-mmqp-zn8m3ihe2l8q"
+        },
+        {
+            "id": 84,
+            "type": "ball-mini",
+            "paramKey": "ACU_JX_X_2",
+            "paramValue": "ACU_JX_X_2_SET",
+            "parent_id": [
+                45,
+                46
+            ],
+            "polarity": {
+                "1": [
+                    45,
+                    19,
+                    13,
+                    7
+                ],
+                "2": [
+                    46,
+                    20,
+                    14,
+                    8
+                ]
+            },
+            "direction": {
+                "left": "1",
+                "right": "2"
+            },
+            "children_id": 137,
+            "status": "OFF_LINE",
+            "active_color": "rgb(52, 116, 228)",
+            "line_color": "#C3C9D2",
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 500,
+                "left": 754,
+                "width": 20,
+                "height": 20,
+                "transition": "all 0.5s ease 0s",
+                "color": "#A2B2C5",
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ],
+                "zIndex": 2
+            },
+            "key": "u1533a35-1xm4-enet-7g7d-tf85er4i430n"
+        },
+        {
+            "id": 85,
+            "type": "rect-mini",
+            "parent_id": null,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "style": {
+                "top": 505,
+                "left": 715,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #C3C9D2",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "k2cot0x6-e8r8-1699-ywrp-2m5r6guec3mr"
+        },
+        {
+            "id": 86,
+            "type": "line-straight",
+            "parent_id": 25,
+            "children_id": 47,
+            "status": "OFF_LINE",
+            "line_points": "0 0,8 0",
+            "no_arrow": 1,
+            "arrow_transform": "translate(41 -8) rotate(90)",
+            "style": {
+                "top": 510,
+                "left": 738,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "opn3fbmk-h5ln-jccs-17p1-ndhiaho7ppb1"
+        },
+        {
+            "id": 87,
+            "type": "line-straight",
+            "parent_id": 81,
+            "status": "OFF_LINE",
+            "children_id": 90,
+            "no_arrow": true,
+            "line_points": "0 0, 26 0,26 -11",
+            "style": {
+                "top": 546,
+                "left": 712,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "iohgfcdf-jw8p-91fr-c2xw-per3sasiknen"
+        },
+        {
+            "id": 88,
+            "type": "line-straight",
+            "parent_id": 29,
+            "status": "OFF_LINE",
+            "children_id": 31,
+            "line_points": "0 0, 102 0",
+            "arrow_transform": "translate(102 0) rotate(180)",
+            "style": {
+                "top": 450,
+                "left": 712,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "6xetge4h-57ub-s4ro-0qpr-usbnt316hpj6"
+        },
+        {
+            "id": 89,
+            "type": "line-straight",
+            "parent_id": 29,
+            "status": "OFF_LINE",
+            "children_id": 31,
+            "line_points": "0 0, 10 0,10 -62",
+            "arrow_transform": "translate(10 -62) rotate(90)",
+            "style": {
+                "top": 511,
+                "left": 777,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "pa7unc6b-9fdl-rdxo-w6cg-hvatgbeb6pv2"
+        },
+        {
+            "id": 90,
+            "type": "equipment",
+            "parent_id": 87,
+            "children_id": 92,
+            "equipment_name": "Ka下变频器(左)",
+            "device_key": "SDC1",
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "s_fed": true,
+            "equipment_details": [
+                {
+                    "label": "衰减",
+                    "value": "30db"
+                },
+                {
+                    "label": "效率",
+                    "value": "12345.1234Hz"
+                }
+            ],
+            "style": {
+                "top": 380,
+                "left": 918,
+                "width": 170,
+                "height": 119,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "10px",
+                "fontSize": "14px"
+            },
+            "key": "egbxnc93-x8tr-qf1h-plvi-81q8qb6d1len"
+        },
+        {
+            "id": 91,
+            "type": "line-straight",
+            "parent_id": 78,
+            "children_id": 87,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 67 0",
+            "arrow_transform": "translate(67 0) rotate(180)",
+            "style": {
+                "top": 486,
+                "left": 541,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "4sphfb21-0iem-ufbc-b18i-a1u7uyf4wsog"
+        },
+        {
+            "id": 92,
+            "type": "line-straight",
+            "parent_id": 79,
+            "children_id": 87,
+            "status": "OFF_LINE",
+            "line_points": "0 0,50 0,67 0",
+            "arrow_transform": "translate(67 0) rotate(180)",
+            "style": {
+                "top": 532,
+                "left": 541,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "5gfb1rkv-hi4w-668o-rjbu-4kbq5r8kipai"
+        },
+        {
+            "id": 93,
+            "type": "ball-mini",
+            "paramKey": "CPB_JX_5",
+            "paramValue": "CPB_JX_5_SET",
+            "parent_id": [
+                30,
+                118
+            ],
+            "polarity": {
+                "10": [
+                    118,
+                    18,
+                    12,
+                    6
+                ],
+                "01": [
+                    30,
+                    17,
+                    11,
+                    5
+                ]
+            },
+            "direction": {
+                "left": "01",
+                "right": "10"
+            },
+            "children_id": 131,
+            "status": "OFF_LINE",
+            "active_color": "rgb(52, 116, 228)",
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 85,
+                "left": 730,
+                "width": 20,
+                "height": 20,
+                "transition": "all 0.5s ease 0s",
+                "zIndex": 2,
+                "color": "#A2B2C5",
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "sqbb0bow-3hwb-c343-ncdp-gxff378b5pqh"
+        },
+        {
+            "id": 94,
+            "type": "line-straight",
+            "parent_id": 80,
+            "children_id": 90,
+            "status": "OFF_LINE",
+            "no_arrow": true,
+            "line_points": "0 0, 30 0,30 6",
+            "style": {
+                "top": 570,
+                "left": 541,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "l771h6ra-phfd-nz4f-s00j-4m69kakfjrgj"
+        },
+        {
+            "id": 95,
+            "type": "ball-mini",
+            "paramKey": "ACU_JX_X_2",
+            "paramValue": "ACU_JX_X_2_SET",
+            "parent_id": [
+                45,
+                46
+            ],
+            "polarity": {
+                "1": [
+                    45,
+                    19,
+                    13,
+                    7
+                ],
+                "2": [
+                    46,
+                    20,
+                    14,
+                    8
+                ]
+            },
+            "direction": {
+                "left": "1",
+                "right": "2"
+            },
+            "children_id": 137,
+            "status": "OFF_LINE",
+            "active_color": "rgb(52, 116, 228)",
+            "line_color": "#C3C9D2",
+            "circle_cx": 5,
+            "circle_cy": 5,
+            "style": {
+                "top": 584,
+                "left": 592,
+                "width": 20,
+                "height": 20,
+                "rotate": 90,
+                "transition": "all 0.5s ease 0s",
+                "color": "#A2B2C5",
+                "transform": "scale(2.008) translate(0, 0.5) rotate(0)",
+                "borderRadius": [
+                    2
+                ],
+                "zIndex": 2
+            },
+            "key": "bsqp9ouq-0j3f-hfyr-6wr6-vbt0f4wqcbfz"
+        },
+        {
+            "id": 96,
+            "type": "rect-mini",
+            "parent_id": null,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "style": {
+                "top": 589,
+                "left": 552,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #C3C9D2",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "qikdbpq8-1g0h-vs9q-r3kb-eufinfckimir"
+        },
+        {
+            "id": 97,
+            "type": "line-straight",
+            "parent_id": 25,
+            "children_id": 47,
+            "status": "OFF_LINE",
+            "line_points": "0 0,10 0",
+            "no_arrow": 1,
+            "arrow_transform": "translate(41 -8) rotate(90)",
+            "style": {
+                "top": 594,
+                "left": 575,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "k1wr68po-wyln-5fi1-x9kc-ptosazqqup8m"
+        },
+        {
+            "id": 98,
+            "type": "line-straight",
+            "parent_id": 81,
+            "status": "OFF_LINE",
+            "children_id": 90,
+            "line_points": "0 0, 12 0,12 -120, 32 -120",
+            "arrow_transform": "translate(32 -120) rotate(180)",
+            "style": {
+                "top": 595,
+                "left": 612,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "yt70qv9d-gmd0-ysq5-ixye-tng7vwdbo5i2"
+        },
+        {
+            "id": 99,
+            "type": "line-straight",
+            "parent_id": 81,
+            "status": "OFF_LINE",
+            "children_id": 90,
+            "no_arrow": true,
+            "line_points": "0 0, 30 0,30 -10",
+            "style": {
+                "top": 622,
+                "left": 541,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "ny3wpheb-svgk-4t62-diyv-rx0icehlph2c"
+        },
+        {
+            "id": 100,
+            "type": "line-straight",
+            "parent_id": 84,
+            "children_id": 26,
+            "status": "OFF_LINE",
+            "line_points": "0 0,20 0, 20 72,68 72",
+            "arrow_transform": "translate(68 72) rotate(180)",
+            "style": {
+                "top": 442,
+                "left": 1088,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "apxu9w80-k7ed-m3yw-b0d9-8vi2l7n756gb"
+        },
+        {
+            "id": 101,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 26,
+            "children_id": 33,
+            "line_points": "0 0,32 0",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "style": {
+                "top": 85,
+                "left": 1273,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "f119wzav-10ji-44d2-tkuf-hkpky6j4h18s"
+        },
+        {
+            "id": 102,
+            "type": "line-straight",
+            "line_points": "0 0,32 0",
+            "parent_id": 26,
+            "children_id": 35,
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 403,
+                "left": 1273,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "4vlmne63-rkiy-pp9c-sq92-irygdg52y6zw"
+        },
+        {
+            "id": 103,
+            "type": "line-straight",
+            "line_points": "0 0,0 25",
+            "status": "OFF_LINE",
+            "parent_id": 33,
+            "children_id": 34,
+            "arrow_transform": "translate(0 -4) rotate(90)",
+            "line_start_arrow_transform": "translate(0 25)  rotate(-90)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 169,
+                "left": 1741,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "otgveyxs-q40t-dvz5-w21h-6ncjkeu66iiy"
+        },
+        {
+            "id": 104,
+            "parent_id": 104,
+            "children_id": 103,
+            "type": "equipment",
+            "equipment_name": "高速数传基带",
+            "device_key": "DDT",
+            "equipment_icon": "normal",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "载波锁定",
+                    "value": 2,
+                    "key": "status"
+                },
+                {
+                    "label": "码元锁定",
+                    "value": 1,
+                    "key": "status"
+                },
+                {
+                    "label": "码速率",
+                    "value": "450M"
+                },
+                {
+                    "label": "解调模式",
+                    "value": "BPSK"
+                },
+                {
+                    "label": "Eb/N0",
+                    "value": "30.1dB"
+                },
+                {
+                    "label": "AGC",
+                    "value": "30.1dB"
+                }
+            ],
+            "equipment_style": {
+                "width": "48%"
+            },
+            "style": {
+                "top": 512,
+                "left": 1338,
+                "width": 270,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "o5xlssm7-o65w-m9rl-lv0b-ove44wktr9dm"
+        },
+        {
+            "id": 105,
+            "type": "equipment",
+            "equipment_name": "DTE",
+            "device_key": "DTE",
+            "parent_id": [
+                101,
+                102
+            ],
+            "children_id": 105,
+            "equipment_icon": "dte",
+            "status": "NORMAL",
+            "equipment_details": [
+                {
+                    "label": "设备情况",
+                    "value": "正常"
+                },
+                {
+                    "label": "控制方式",
+                    "value": "本控"
+                },
+                {
+                    "label": "工作方式",
+                    "value": "待机"
+                }
+            ],
+            "style": {
+                "top": 221,
+                "left": 1675,
+                "width": 144,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "opo91vxv-jytf-t33m-4sdq-cljtaowp3jw7"
+        },
+        {
+            "id": 106,
+            "type": "equipment",
+            "parent_id": 105,
+            "children_id": 107,
+            "equipment_name": "防火墙/交换机",
+            "equipment_icon": "",
+            "status": "NORMAL",
+            "equipment_details": [],
+            "style": {
+                "top": 371,
+                "left": 1688,
+                "width": 118,
+                "height": 118,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 10px",
+                "fontSize": "14px"
+            },
+            "key": "0kyptn5f-uot1-fa1l-k3rw-85hkbrf5pz96"
+        },
+        {
+            "id": 107,
+            "type": "equipment",
+            "parent_id": [
+                106,
+                103
+            ],
+            "children_id": null,
+            "equipment_name": "存储转发",
+            "equipment_icon": "",
+            "status": "NORMAL",
+            "equipment_details": [],
+            "style": {
+                "top": 517,
+                "left": 1688,
+                "width": 118,
+                "height": 118,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "6prv2dv4-tgrm-1r89-n2jp-jayqufkj08f2"
+        },
+        {
+            "id": 108,
+            "type": "line-straight",
+            "parent_id": 34,
+            "children_id": 98,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 23 0,23 30,59 30",
+            "arrow_transform": "translate(59 30) rotate(180)",
+            "style": {
+                "top": 223,
+                "left": 1558,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "rrb3imee-mh8i-sxbm-y7ag-kpn8r25b8rqp"
+        },
+        {
+            "id": 109,
+            "type": "line-straight",
+            "parent_id": 35,
+            "children_id": 98,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 23 0,23 -50,59 -50",
+            "arrow_transform": "translate(59 -50) rotate(180)",
+            "style": {
+                "top": 407,
+                "left": 1558,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "khmepjc4-kt5b-s7nh-7ppy-tbaaygdjmx1t"
+        },
+        {
+            "id": 110,
+            "parent_id": 97,
+            "children_id": 100,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "line_points": "0 0, 40 0",
+            "arrow_transform": "translate(40 0) rotate(180)",
+            "style": {
+                "top": 570,
+                "left": 1608,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "f4vhdfcl-8ock-pcrb-gbu4-vivis867u9a2"
+        },
+        {
+            "id": 111,
+            "type": "line-straight",
+            "parent_id": 51,
+            "children_id": 97,
+            "line_points": "0 0,32 0",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "status": "OFF_LINE",
+            "style": {
+                "top": 570,
+                "left": 1273,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "je7dqmst-5il1-z2q3-y5cc-fdvomjfuca12"
+        },
+        {
+            "id": 112,
+            "type": "line-straight",
+            "parent_id": 98,
+            "children_id": 99,
+            "line_points": "0 0,0 15",
+            "status": "NORMAL",
+            "arrow_transform": "translate(0 15) rotate(-90)",
+            "style": {
+                "top": 341,
+                "left": 1747,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "4mgoptbf-tbmu-acg1-5ibc-3kmomemlky1q"
+        },
+        {
+            "id": 113,
+            "type": "line-straight",
+            "parent_id": 100,
+            "children_id": 99,
+            "status": "NORMAL",
+            "line_points": "0 0,0 -14",
+            "arrow_transform": "translate(0 -14) rotate(90)",
+            "style": {
+                "top": 514,
+                "left": 1747,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "74xns7dl-e81r-yosl-nvcz-cp6w86ihcylc"
+        },
+        {
+            "id": 114,
+            "type": "line-straight",
+            "parent_id": 99,
+            "children_id": null,
+            "line_points": "0 0,32 0",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "status": "NORMAL",
+            "style": {
+                "top": 430,
+                "left": 1805,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "su6onsi3-7b9j-9mf4-t3sw-24btymkewftm"
+        },
+        {
+            "id": 115,
+            "type": "equipment",
+            "parent_id": null,
+            "children_id": [
+                113,
+                111
+            ],
+            "equipment_name": "X校零变频器",
+            "device_key": "XZC",
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "8400.5000MHZ"
+                },
+                {
+                    "label": "增益",
+                    "value": "30db"
+                }
+            ],
+            "style": {
+                "top": 30,
+                "left": 20,
+                "width": 175,
+                "height": 102,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "u7v48jtk-66or-cz9k-lkuq-twyolo2i6pme"
+        },
+        {
+            "id": 116,
+            "type": "equipment",
+            "parent_id": null,
+            "children_id": [
+                112,
+                114
+            ],
+            "equipment_name": "Ka校零变频器",
+            "device_key": "SZC",
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "s_fed": true,
+            "equipment_details": [
+                {
+                    "label": "频率",
+                    "value": "8400.5000MHZ"
+                },
+                {
+                    "label": "增益",
+                    "value": "30db"
+                }
+            ],
+            "style": {
+                "top": 450,
+                "left": 20,
+                "width": 175,
+                "height": 102,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "pq3pbpcw-u1fg-gatl-r4nt-n7465qf933v3"
+        },
+        {
+            "id": 117,
+            "parent_id": null,
+            "children_id": [
+                112,
+                111
+            ],
+            "type": "img",
+            "status": "OFF_LINE",
+            "url": "/img/tianxian.1407abea.png",
+            "style": {
+                "top": 170,
+                "left": 20,
+                "width": 177,
+                "height": 211,
+                "color": "#61666A"
+            },
+            "key": "rkqcv4os-p2ah-cew9-dkoi-kt7m0f38msdz"
+        },
+        {
+            "id": 118,
+            "type": "line-straight",
+            "parent_id": 108,
+            "children_id": 100,
+            "line_points": "0 0,0 30",
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(0 30) rotate(-90)",
+            "line_start_arrow_transform": "translate(0 0)  rotate(90)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 130,
+                "left": 107,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "cj8l8838-5pvf-e7h2-evk2-06vf7uxmsfil"
+        },
+        {
+            "id": 119,
+            "type": "line-straight",
+            "parent_id": 109,
+            "children_id": 110,
+            "line_points": "0 0,0 30",
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(0 30) rotate(-90)",
+            "line_start_arrow_transform": "translate(0 0)  rotate(90)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 380,
+                "left": 107,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "lvpmb9r3-8vgp-3rus-wxc6-pqj7cghftrxu"
+        },
+        {
+            "id": 120,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 15,
+            "children_id": 2,
+            "line_points": "0 0,12 0",
+            "arrow_transform": "translate(12 0) rotate(180)",
+            "no_arrow": true,
+            "no_circle": true,
+            "style": {
+                "top": 50,
+                "left": 367,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "8cbh8t0j-qxfn-5q83-27u4-1eaxpqotl366"
+        },
+        {
+            "id": 121,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 15,
+            "children_id": 2,
+            "line_points": "0 0,12 0",
+            "arrow_transform": "translate(12 0) rotate(180)",
+            "no_arrow": true,
+            "no_circle": true,
+            "style": {
+                "top": 380,
+                "left": 367,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "ysrhnm4l-entu-se5o-dksi-j5pyjfwr28by"
+        },
+        {
+            "id": 122,
+            "type": "line-straight",
+            "parent_id": 29,
+            "status": "OFF_LINE",
+            "children_id": 31,
+            "line_points": "0 0, 105 0, 105 30, 133 30",
+            "arrow_transform": "translate(133 30) rotate(180)",
+            "style": {
+                "top": 120,
+                "left": 649,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "l0bqcfm8-6hib-cibj-sf7l-b9ivkf4tvx7u"
+        },
+        {
+            "id": 123,
+            "type": "line-straight",
+            "parent_id": 29,
+            "status": "OFF_LINE",
+            "children_id": 31,
+            "line_points": "0 0, 45 0, 45 -42",
+            "no_arrow": true,
+            "style": {
+                "top": 180,
+                "left": 649,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "gjsxaswr-hkih-r2ly-iu77-4cbblwxfwdk8"
+        },
+        {
+            "id": 124,
+            "type": "rect-mini",
+            "text": "功分器",
+            "parent_id": 28,
+            "status": "OFF_LINE",
+            "equipment_name": "功分器1",
+            "children_id": [
+                30,
+                42,
+                117
+            ],
+            "style": {
+                "top": 516,
+                "left": 677,
+                "width": 34,
+                "height": 78,
+                "color": "#4B4F55",
+                "background": "#FFFFFF",
+                "borderRadius": [
+                    2
+                ],
+                "fontSize": "14px"
+            },
+            "key": "uns2y0rk-wxfo-bskh-bwq5-sfqp3kidesbi"
+        },
+        {
+            "id": 125,
+            "type": "line-straight",
+            "parent_id": 29,
+            "status": "OFF_LINE",
+            "children_id": 31,
+            "line_points": "0 0, 102 0",
+            "arrow_transform": "translate(102 0) rotate(180)",
+            "style": {
+                "top": 572,
+                "left": 712,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "ya68os34-jaku-zpfg-6xsg-k252hsayu72a"
+        },
+        {
+            "id": 126,
+            "type": "equipment",
+            "parent_id": 86,
+            "children_id": 123,
+            "equipment_name": "Ka下变频器(右)",
+            "device_key": "SDC2",
+            "equipment_icon": "transducer",
+            "status": "OFF_LINE",
+            "s_fed": true,
+            "equipment_details": [
+                {
+                    "label": "衰减",
+                    "value": "30db"
+                },
+                {
+                    "label": "效率",
+                    "value": "12345.1234Hz"
+                }
+            ],
+            "style": {
+                "top": 520,
+                "left": 918,
+                "width": 170,
+                "height": 119,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "10px",
+                "fontSize": "14px"
+            },
+            "key": "wshq6gf6-3ycc-knb3-gnok-zqs4mrgfsto5"
+        },
+        {
+            "id": 127,
+            "type": "line-straight",
+            "parent_id": 84,
+            "children_id": 26,
+            "status": "OFF_LINE",
+            "line_points": "0 0,68 0",
+            "arrow_transform": "translate(68 0) rotate(180)",
+            "style": {
+                "top": 613,
+                "left": 1087,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "kdq9hoai-jmfc-ef1b-c4a5-1hzq56fx37jw"
+        },
+        {
+            "id": 128,
+            "type": "equipment",
+            "equipment_name": "综合基带(测控)",
+            "device_key": "BBE",
+            "parent_id": 96,
+            "children_id": 101,
+            "equipment_icon": "acu",
+            "status": "OFF_LINE",
+            "equipment_details": [
+                {
+                    "label": "工作方式",
+                    "value": "待机"
+                },
+                {
+                    "label": "天线位置",
+                    "value": "123.123，123.123"
+                },
+                {
+                    "label": "相位",
+                    "value": "123，123"
+                }
+            ],
+            "style": {
+                "top": 175,
+                "left": 1338,
+                "width": 220,
+                "height": 124,
+                "color": "#61666A",
+                "boxShadow": "0px 0px 6px rgba(0,0,0,0.16)",
+                "background": "#F9FBFC",
+                "borderRadius": [
+                    4
+                ],
+                "padding": "5px 16px",
+                "fontSize": "14px"
+            },
+            "key": "w8j3b7ts-45av-ny9k-nab4-g9fosvi100jn"
+        },
+        {
+            "id": 129,
+            "type": "line-straight",
+            "line_points": "0 0,32 0",
+            "parent_id": 26,
+            "children_id": 35,
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(32 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 235,
+                "left": 1273,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "53ukpz72-egoo-9bzd-6btk-6u7xln1t4kq9"
+        },
+        {
+            "id": 130,
+            "type": "line-straight",
+            "line_points": "0 0,35 0",
+            "parent_id": 26,
+            "children_id": 35,
+            "status": "OFF_LINE",
+            "arrow_transform": "translate(35 0) rotate(180)",
+            "line_start": "arrow",
+            "no_circle": true,
+            "style": {
+                "top": 95,
+                "left": 1558,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "rtcty6qz-ip36-suof-05rm-te8xluunwlid"
+        },
+        {
+            "id": 131,
+            "type": "rect-mini",
+            "parent_id": null,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "style": {
+                "top": 91,
+                "left": 696,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #C3C9D2",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "4ppqe2ia-hxjs-4wvd-5w8m-71jxezwr8pvr"
+        },
+        {
+            "id": 132,
+            "type": "rect-mini",
+            "parent_id": null,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "style": {
+                "top": 217,
+                "left": 706,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #C3C9D2",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "gjl7vnpb-uloo-x2y3-m7f8-95vvy1z4e4kt"
+        },
+        {
+            "id": 133,
+            "type": "rect-mini",
+            "parent_id": null,
+            "status": "OFF_LINE",
+            "children_id": 70,
+            "style": {
+                "top": 278,
+                "left": 569,
+                "width": 24,
+                "height": 10,
+                "background": "rgba(255,255,255,0.39)",
+                "border": "1px solid #C3C9D2",
+                "borderRadius": [
+                    2
+                ]
+            },
+            "key": "9q89vsnk-x7gf-530w-1p4m-uh3wfs3j8n13"
+        },
+        {
+            "id": 134,
+            "type": "line-straight",
+            "parent_id": 29,
+            "status": "OFF_LINE",
+            "children_id": 31,
+            "line_points": "0 0,88 0",
+            "arrow_transform": "translate(88 0) rotate(180)",
+            "style": {
+                "top": 95,
+                "left": 742,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "iwpp79dt-ddd2-8uo8-ir0o-8rdv72lytum1"
+        },
+        {
+            "id": 135,
+            "type": "line-straight",
+            "parent_id": 29,
+            "status": "OFF_LINE",
+            "children_id": 31,
+            "line_points": "0 0, 5 0",
+            "no_arrow": true,
+            "style": {
+                "top": 95,
+                "left": 720,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "7tz2fvy3-vcup-3jij-jwik-mzrkvmgkye1a"
+        },
+        {
+            "id": 136,
+            "type": "line-straight",
+            "parent_id": 29,
+            "children_id": 44,
+            "status": "OFF_LINE",
+            "line_points": "0 0,20 0,20 20",
+            "arrow_transform": "translate(20 20) rotate(-90)",
+            "style": {
+                "top": 222,
+                "left": 756,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "kugozj5m-8pg5-2dr0-msa2-u7kg6v9cai3d"
+        },
+        {
+            "id": 137,
+            "type": "line-straight",
+            "parent_id": 38,
+            "children_id": 41,
+            "status": "OFF_LINE",
+            "line_points": "0 0, 10 0",
+            "arrow_transform": "translate(51 28) rotate(-90)",
+            "no_arrow": true,
+            "active_color": "#C3C9D2",
+            "style": {
+                "top": 221,
+                "left": 730,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "qe1x1dly-rute-le7k-n8x7-v6xqnc7z371l"
+        },
+        {
+            "id": 138,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 15,
+            "children_id": 2,
+            "line_points": "0 0,10 0",
+            "arrow_transform": "translate(12 0) rotate(180)",
+            "animateStartRight": true,
+            "no_arrow": true,
+            "no_circle": true,
+            "style": {
+                "top": 50,
+                "left": 400,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "ey99djmr-mj27-1yyb-hxto-c3dmscwfx1sp"
+        },
+        {
+            "id": 139,
+            "type": "line-straight",
+            "parent_id": 25,
+            "children_id": 47,
+            "status": "OFF_LINE",
+            "line_points": "0 0,10 0",
+            "no_arrow": 1,
+            "arrow_transform": "translate(41 -8) rotate(90)",
+            "style": {
+                "top": 282,
+                "left": 592,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "26w0magf-er9b-s2od-lut1-iaxwhmrc82d5"
+        },
+        {
+            "id": 140,
+            "type": "line-straight",
+            "parent_id": 25,
+            "children_id": 47,
+            "status": "OFF_LINE",
+            "line_points": "0 0,12 0,12 25,23 25",
+            "arrow_transform": "translate(23 25) rotate(180)",
+            "style": {
+                "top": 282,
+                "left": 630,
+                "width": 29,
+                "color": "#C3C9D2"
+            },
+            "key": "aijs4wxh-36rn-11d2-ytoy-bko4vdtoy139"
+        },
+        {
+            "id": 141,
+            "type": "line-straight",
+            "status": "OFF_LINE",
+            "parent_id": 15,
+            "children_id": 2,
+            "s_fed": true,
+            "line_points": "0 0,10 0",
+            "arrow_transform": "translate(12 0) rotate(180)",
+            "animateStartRight": true,
+            "no_arrow": true,
+            "no_circle": true,
+            "style": {
+                "top": 380,
+                "left": 400,
+                "width": 29,
+                "color": "#3474E4"
+            },
+            "key": "bfach2uy-4t17-4mh7-oaqd-vjw8jv8ebvl1"
+        }
+    ]
+}

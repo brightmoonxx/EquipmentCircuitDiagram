@@ -1,0 +1,45 @@
+<!--
+ * @Author: wang_xin
+ * @Date: 2022-04-28 17:37:07
+ * @LastEditors: zhaojinhui
+ * @LastEditTime: 2023年3月9日10:22:04
+ * @FilePath: \code\public\index.html
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by yuxing, All Rights Reserved. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <link rel="icon" href="http://yuxingsat.com/traceplanclient/vue/favicon.png">
+    <% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.css) { %>
+        <link href="<%= htmlWebpackPlugin.options.cdn.css[i] %>" rel="stylesheet" />
+        <% } %>
+            <title>站控</title>
+</head>
+
+<body>
+
+    <noscript>
+        <strong>
+            We're sorry but templateTool doesn't work properly without
+            JavaScript enabled. Please enable it to continue.
+        </strong>
+    </noscript>
+    <div id="app"></div>
+
+    <!-- 使用CDN的JS文件 -->
+    <% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.js) { %>
+        <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
+        <% } %>
+            <!-- 使用CDN的JS文件 -->
+
+            <!-- built files will be auto injected -->
+</body>
+
+</html>

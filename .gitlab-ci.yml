@@ -1,0 +1,103 @@
+stages:
+  - docker_build_develop
+  - deploy_build_develop
+  - docker_build_test
+  - deploy_build_test
+  - docker_build_formal
+  - deploy_build_formal
+
+docker_build_develop:
+  stage: docker_build_develop
+  script:
+    - echo "docker_build_develop start"
+    - git clone http://10.2.0.185/root/config.git
+    - cp  config/cloudNetworkDockerfile                   Dockerfile
+    - sed -i "s/PROJECT_NAME/${CI_PROJECT_NAME}/g"        Dockerfile
+
+    - docker login --username=admin --password=yuxing 10.2.0.187
+    - docker build -t 10.2.0.187/station-control-center-view/${CI_PROJECT_NAME}:v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID} .
+    - docker push 10.2.0.187/station-control-center-view/${CI_PROJECT_NAME}:v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID}
+    - echo "docker_build_develop end"
+  tags:
+    - vue-develop
+  only:
+    - develop
+
+docker_build_test:
+  stage: docker_build_test
+  script:
+    - echo "docker_build_test start"
+    - git clone http://10.2.0.185/root/config.git
+    - cp  config/cloudNetworkDockerfile                   Dockerfile
+    - sed -i "s/PROJECT_NAME/${CI_PROJECT_NAME}/g"        Dockerfile
+
+    - docker login --username=admin --password=yuxing 10.2.0.187
+    - docker build -t 10.2.0.187/station-control-center-view/${CI_PROJECT_NAME}:v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID} .
+    - docker push 10.2.0.187/station-control-center-view/${CI_PROJECT_NAME}:v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID}
+    - echo "docker_build_test end"
+  tags:
+    - vue-test
+  only:
+    - test
+
+docker_build_formal:
+  stage: docker_build_formal
+  script:
+    - echo "docker_build_formal start"
+    - git clone http://10.2.0.185/root/config.git
+    - cp  config/cloudNetworkDockerfile                   Dockerfile
+    - sed -i "s/PROJECT_NAME/${CI_PROJECT_NAME}/g"        Dockerfile
+
+    - docker login --username=驭星yuxing --password=NDU0Ki8qJiom registry.cn-beijing.aliyuncs.com
+    - docker build -t registry.cn-beijing.aliyuncs.com/yu_xing/${CI_PROJECT_NAME}:v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID} .
+    - docker push registry.cn-beijing.aliyuncs.com/yu_xing/${CI_PROJECT_NAME}:v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID}
+    - echo "docker_build_formal end"
+  tags:
+    - vue-formal
+  only:
+    - formal
+
+deploy_build_develop:
+  stage: deploy_build_develop
+  script:
+    - echo "deploy_build_develop start"
+    - git clone http://10.2.0.185/root/config.git
+    - cp  config/vueDeployment.yml                                                                    deployment.yml
+    - sed -i "s/PROJECT_NAME/${CI_PROJECT_NAME}/g"                                                    deployment.yml
+    - sed -i "s/VERSION_TAG_NUM/v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID}/g"       deployment.yml
+    - echo "version is v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID}"
+    - kubectl apply -f deployment.yml
+  tags:
+    - vue-develop
+  only:
+    - develop
+
+deploy_build_test:
+  stage: deploy_build_test
+  script:
+    - echo "deploy_build_test start"
+    - git clone http://10.2.0.185/root/config.git
+    - cp  config/vueDeployment.yml                                                                    deployment.yml
+    - sed -i "s/PROJECT_NAME/${CI_PROJECT_NAME}/g"                                                    deployment.yml
+    - sed -i "s/VERSION_TAG_NUM/v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID}/g"       deployment.yml
+    - echo "version is v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID}"
+    - kubectl apply -f deployment.yml
+  tags:
+    - vue-test
+  only:
+    - test
+
+deploy_build_formal:
+  stage: deploy_build_formal
+  script:
+    - echo "deploy_build_formal start"
+    - git clone http://10.2.0.185/root/config.git
+    - cp  config/vueDeployment-formal.yml                                                             deployment.yml
+    - sed -i "s/PROJECT_NAME/${CI_PROJECT_NAME}/g"                                                    deployment.yml
+    - sed -i "s/VERSION_TAG_NUM/v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID}/g"       deployment.yml
+    - echo "version is v${major_version_num}.${minor_version_num}.${CI_PIPELINE_ID}"
+    - kubectl apply -f deployment.yml
+  tags:
+    - vue-formal
+  only:
+    - formal
